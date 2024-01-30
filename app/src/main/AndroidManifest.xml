@@ -13,14 +13,27 @@
         android:theme="@style/Theme.Momento"
         tools:targetApi="31">
         <activity
-            android:name=".AuthenticationActivity"
+            android:name=".authentication.LoginActivity"
             android:exported="false" />
-        <activity
-            android:name=".ui.login.AuthenticationActivity"
-            android:exported="false"
-            android:label="@string/title_activity_authentication" />
+
         <activity
             android:name=".MainActivity"
+            android:exported="true" />
+
+        <receiver
+            android:name=".widgets.CountDownWidget"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/count_down_widget_info" />
+        </receiver>
+
+        <activity
+            android:name=".authentication.RegisterActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
