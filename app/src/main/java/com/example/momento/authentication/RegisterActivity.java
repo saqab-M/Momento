@@ -39,11 +39,11 @@ public class RegisterActivity extends AppCompatActivity {
 
         // set components
         etName = findViewById(R.id.etName);
-        etEmail = findViewById(R.id.etEmail);
-        etPass = findViewById(R.id.etPass);
+        etEmail = findViewById(R.id.et_Email);
+        etPass = findViewById(R.id.et_Pass);
         etPass2 = findViewById(R.id.etPass2);
         btnSignUp = findViewById(R.id.btnSignUp);
-        tvSignin = findViewById(R.id.tvSignIn);
+        tvSignin = findViewById(R.id.tv_SignUp);
         progressBar = findViewById(R.id.progressSignup);
 
         fAuth = FirebaseAuth.getInstance();
@@ -76,13 +76,21 @@ public class RegisterActivity extends AppCompatActivity {
                             startActivity(new Intent(getApplicationContext(), MainActivity.class));
                             finish();
                         }else{
-                            Toast.makeText(RegisterActivity.this, "Error ! :"+ task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                            Toast.makeText(RegisterActivity.this, "error: "+ task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
 
 
 
+            }
+        });
+
+        tvSignin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), LoginActivity.class));
+                finish();
             }
         });
 

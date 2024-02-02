@@ -3,6 +3,7 @@ package com.example.momento;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.DatePickerDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.view.View;
@@ -10,6 +11,9 @@ import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import com.example.momento.authentication.LoginActivity;
+import com.google.firebase.auth.FirebaseAuth;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -99,5 +103,13 @@ public class MainActivity extends AppCompatActivity {
                 },
                 year,month,day);
         datePickerDialog.show();
+    }
+
+    public void logout(View view) {
+        // logout logic
+        FirebaseAuth.getInstance().signOut();
+        //return to register
+        startActivity(new Intent(getApplicationContext(), LoginActivity.class));
+        finish();
     }
 }
