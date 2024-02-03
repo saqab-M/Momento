@@ -1,5 +1,6 @@
 package com.example.momento;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.DatePickerDialog;
@@ -13,19 +14,28 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.example.momento.authentication.LoginActivity;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
 
     private Button btnAge;
     private TextView tvResults;
     private EditText etdDOB;
-    private Button btnPick;
+
+    private FirebaseAuth fAuth;
+    private FirebaseFirestore db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +45,12 @@ public class MainActivity extends AppCompatActivity {
         btnAge = findViewById(R.id.btn_Age);
         tvResults = findViewById(R.id.tv_Result);
         etdDOB = findViewById(R.id.etd_DOB);
+
+        db = FirebaseFirestore.getInstance();
+        fAuth = FirebaseAuth.getInstance();
+
+        etdDOB.setFocusable(false);
+        setdays();
 
         etdDOB.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -69,6 +85,14 @@ public class MainActivity extends AppCompatActivity {
                         long daysDiff = timeDiff / (24 * 60 * 60 * 1000); //24h 60m 60s 1000ms = ms in a day
 
                         int lifeExpectancyInDays = 26645- (int) daysDiff;
+
+
+                        //add to database
+                        DocumentReference docRef = db.collection("Users").document(fAuth.getCurrentUser().getUid());
+                        Map<String,Object> data = new HashMap<>();
+                        data.put("days", lifeExpectancyInDays);
+                        docRef.update(data);
+
                         // convert to string
                         tvResults.setText(String.valueOf(lifeExpectancyInDays));
 
@@ -86,6 +110,29 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
+    private void setdays() {
+
+        DocumentReference documentReference = db.collection("Users").document(fAuth.getCurrentUser().getUid());
+
+        documentReference.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+            @Override
+            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+                if(task.isSuccessful()){
+
+                    DocumentSnapshot doc = task.getResult();
+                    if(doc.contains("days")){
+                        Long days = doc.getLong("days");
+                        tvResults.setText(days.toString());
+                    }else{
+                        tvResults.setText("00");
+                    }
+
+                }
+            }
+        });
+    }
+
 
     private void showDatePickerDialog() {
         final Calendar calander = Calendar.getInstance();

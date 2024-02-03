@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -13,30 +13,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Momento"
-        tools:targetApi="31"
-        >
-
+        tools:targetApi="31">
         <activity
             android:name=".authentication.RegisterActivity"
             android:exported="true"
-            android:screenOrientation="portrait"
-            >
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".authentication.LoginActivity"
             android:exported="false"
-            android:screenOrientation="portrait"/>
-
+            android:screenOrientation="portrait" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
 
         <receiver
             android:name=".widgets.CountDownWidget"
@@ -49,8 +44,6 @@
                 android:name="android.appwidget.provider"
                 android:resource="@xml/count_down_widget_info" />
         </receiver>
-
-
     </application>
 
 </manifest>

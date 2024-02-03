@@ -18,19 +18,28 @@ import android.widget.Toast;
 import com.example.momento.MainActivity;
 import com.example.momento.R;
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.firestore.DocumentChange;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.FirebaseFirestore;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class RegisterActivity extends AppCompatActivity {
 
-    EditText etName, etEmail, etPass, etPass2;
-    Button btnSignUp;
-    TextView tvSignin;
-    ProgressBar progressBar;
+    private EditText etName, etEmail, etPass, etPass2;
+    private Button btnSignUp;
+    private TextView tvSignin;
+    private ProgressBar progressBar;
 
     //Authentication
-    FirebaseAuth fAuth;
+    private FirebaseAuth fAuth;
+    private FirebaseFirestore db;
+    private String userID;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +56,7 @@ public class RegisterActivity extends AppCompatActivity {
         progressBar = findViewById(R.id.progressSignup);
 
         fAuth = FirebaseAuth.getInstance();
+        db = FirebaseFirestore.getInstance();
 
         // returning user
         if (fAuth.getCurrentUser()!= null){
@@ -58,12 +68,13 @@ public class RegisterActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                // get email & password
+                // get user input
+                String name = etName.getText().toString().trim();
                 String email = etEmail.getText().toString().trim();
                 String password = etPass.getText().toString().trim();
                 String password2 = etPass2.getText().toString().trim();
 
-                if(!inputValidatin(email,password,password2)){
+                if(!inputValidatin(name,email,password,password2)){
                     return;
                 }
                 progressBar.setVisibility(View.VISIBLE);
@@ -73,10 +84,24 @@ public class RegisterActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
+                            //get user id
+                            userID = fAuth.getCurrentUser().getUid();
+                            //add user data to firestore
+                            DocumentReference documentReference = db.collection("Users").document(userID);
+                            //save user data as hash map
+                            Map<String,Object> user = new HashMap<>();
+                            user.put("name" , name);
+                            user.put("email", email);
+
+                            //push to cloud
+                            documentReference.set(user);
+
+                            // start main activity
                             startActivity(new Intent(getApplicationContext(), MainActivity.class));
                             finish();
                         }else{
                             Toast.makeText(RegisterActivity.this, "error: "+ task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                            progressBar.setVisibility(View.INVISIBLE);
                         }
                     }
                 });
@@ -97,9 +122,13 @@ public class RegisterActivity extends AppCompatActivity {
 
     }
 
-    private boolean inputValidatin(String email, String password, String password2) {
+    private boolean inputValidatin(String name, String email, String password, String password2) {
 
         Boolean inputValid = true;
+        if (TextUtils.isEmpty(name)){
+            etName.setError("enter your name!");
+            inputValid = false;
+        }
         if (TextUtils.isEmpty(email)){
             etEmail.setError("enter your email!");
             inputValid = false;
