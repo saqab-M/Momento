@@ -7,10 +7,13 @@ import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
+import android.util.Log;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.example.momento.authentication.LoginActivity;
@@ -21,11 +24,20 @@ import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.IOException;
+import java.io.InputStream;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
@@ -33,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
     private Button btnAge;
     private TextView tvResults;
     private EditText etdDOB;
+    private Spinner spinCountries;
+    private Spinner spinGender;
 
     private FirebaseAuth fAuth;
     private FirebaseFirestore db;
@@ -45,12 +59,22 @@ public class MainActivity extends AppCompatActivity {
         btnAge = findViewById(R.id.btn_Age);
         tvResults = findViewById(R.id.tv_Result);
         etdDOB = findViewById(R.id.etd_DOB);
+        spinCountries = findViewById(R.id.spin_Countries);
+        spinGender = findViewById(R.id.spin_Gender);
 
         db = FirebaseFirestore.getInstance();
         fAuth = FirebaseAuth.getInstance();
 
         etdDOB.setFocusable(false);
         setdays();
+
+        //read jason
+        List<String> countyNames = readCountries();
+        //setup spinner
+        setCountriesSpinner(countyNames);
+        String[] genders = {"male", "female", "prefer not to say"};
+        setGenderSpinner(genders);
+
 
         etdDOB.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -110,6 +134,49 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
+    private void setGenderSpinner(String[] genderArray) {
+
+        List<String> gendersList = new ArrayList<>(Arrays.asList(genderArray));
+
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, gendersList);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        adapter.insert("gender", 0);
+        spinGender.setAdapter(adapter);
+    }
+
+    private void setCountriesSpinner(List<String> countyNames) {
+
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, countyNames);
+
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+
+        adapter.insert("Select your country", 0);
+        spinCountries.setAdapter(adapter);
+
+    }
+
+    private List<String> readCountries() {
+
+        List<String> countryNames = new ArrayList<>();
+        try{
+            InputStream input = getResources().openRawResource(R.raw.countries);
+            byte[] buffer = new byte[input.available()];
+            input.read(buffer);
+            input.close();
+            String json = new String(buffer, "UTF-8");
+            JSONObject jsonObj = new JSONObject(json);
+            JSONArray countriesArray = jsonObj.getJSONArray("countries");
+            for (int i = 0; i < countriesArray.length(); i++) {
+                countryNames.add(countriesArray.getString(i));
+            }
+        }catch(IOException | JSONException e){
+            Log.e("CountryReader", "Error reading country names", e);
+        }
+        return countryNames;
+
+    }
+
 
     private void setdays() {
 
