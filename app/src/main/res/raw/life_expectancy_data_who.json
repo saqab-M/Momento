@@ -1,0 +1,7688 @@
+[
+    {
+        "Region": "Africa",
+        "CountryValueCode": "LSO",
+        "Country": "Lesotho",
+        "Sex": "Male",
+        "LifeExpectancy": 47.66
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "CAF",
+        "Country": "Central African Republic",
+        "Sex": "Male",
+        "LifeExpectancy": 50.21
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "LSO",
+        "Country": "Lesotho",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 50.75
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "CAF",
+        "Country": "Central African Republic",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 53.1
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "SWZ",
+        "Country": "Eswatini",
+        "Sex": "Male",
+        "LifeExpectancy": 53.36
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "SOM",
+        "Country": "Somalia",
+        "Sex": "Male",
+        "LifeExpectancy": 54.01
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "LSO",
+        "Country": "Lesotho",
+        "Sex": "Female",
+        "LifeExpectancy": 54.24
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MOZ",
+        "Country": "Mozambique",
+        "Sex": "Male",
+        "LifeExpectancy": 54.46
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "KIR",
+        "Country": "Kiribati",
+        "Sex": "Male",
+        "LifeExpectancy": 56.14
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "CAF",
+        "Country": "Central African Republic",
+        "Sex": "Female",
+        "LifeExpectancy": 56.26
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "SOM",
+        "Country": "Somalia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 56.47
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GNB",
+        "Country": "Guinea-Bissau",
+        "Sex": "Male",
+        "LifeExpectancy": 57.36
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "ZWE",
+        "Country": "Zimbabwe",
+        "Sex": "Male",
+        "LifeExpectancy": 57.51
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "SWZ",
+        "Country": "Eswatini",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 57.73
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "TCD",
+        "Country": "Chad",
+        "Sex": "Male",
+        "LifeExpectancy": 57.95
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MOZ",
+        "Country": "Mozambique",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 58.14
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "BWA",
+        "Country": "Botswana",
+        "Sex": "Male",
+        "LifeExpectancy": 58.95
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "SOM",
+        "Country": "Somalia",
+        "Sex": "Female",
+        "LifeExpectancy": 59.22
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "KIR",
+        "Country": "Kiribati",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 59.42
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GIN",
+        "Country": "Guinea",
+        "Sex": "Male",
+        "LifeExpectancy": 59.48
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "ZMB",
+        "Country": "Zambia",
+        "Sex": "Male",
+        "LifeExpectancy": 59.54
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "TCD",
+        "Country": "Chad",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 59.63
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "SLE",
+        "Country": "Sierra Leone",
+        "Sex": "Male",
+        "LifeExpectancy": 59.6
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "COD",
+        "Country": "Democratic Republic of the Congo",
+        "Sex": "Male",
+        "LifeExpectancy": 60
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "BFA",
+        "Country": "Burkina Faso",
+        "Sex": "Male",
+        "LifeExpectancy": 60.06
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GNB",
+        "Country": "Guinea-Bissau",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 60.22
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "CMR",
+        "Country": "Cameroon",
+        "Sex": "Male",
+        "LifeExpectancy": 60.29
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "FSM",
+        "Country": "Micronesia (Federated States of)",
+        "Sex": "Male",
+        "LifeExpectancy": 60.35
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "CIV",
+        "Country": "C\u00c3\u00b4te d\u00e2\u20ac\u2122Ivoire",
+        "Sex": "Male",
+        "LifeExpectancy": 60.53
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "NAM",
+        "Country": "Namibia",
+        "Sex": "Male",
+        "LifeExpectancy": 60.58
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "AGO",
+        "Country": "Angola",
+        "Sex": "Male",
+        "LifeExpectancy": 60.7
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "ZWE",
+        "Country": "Zimbabwe",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 60.68
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "SLE",
+        "Country": "Sierra Leone",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 60.77
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "SSD",
+        "Country": "South Sudan",
+        "Sex": "Male",
+        "LifeExpectancy": 60.83
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GNQ",
+        "Country": "Equatorial Guinea",
+        "Sex": "Male",
+        "LifeExpectancy": 60.87
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GIN",
+        "Country": "Guinea",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 61.01
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "BEN",
+        "Country": "Benin",
+        "Sex": "Male",
+        "LifeExpectancy": 61.19
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "NGA",
+        "Country": "Nigeria",
+        "Sex": "Male",
+        "LifeExpectancy": 61.2
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "TCD",
+        "Country": "Chad",
+        "Sex": "Female",
+        "LifeExpectancy": 61.34
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "ERI",
+        "Country": "Eritrea",
+        "Sex": "Male",
+        "LifeExpectancy": 61.3
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "BDI",
+        "Country": "Burundi",
+        "Sex": "Male",
+        "LifeExpectancy": 61.55
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "TGO",
+        "Country": "Togo",
+        "Sex": "Male",
+        "LifeExpectancy": 61.52
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MOZ",
+        "Country": "Mozambique",
+        "Sex": "Female",
+        "LifeExpectancy": 61.73
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "SLE",
+        "Country": "Sierra Leone",
+        "Sex": "Female",
+        "LifeExpectancy": 61.9
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "NER",
+        "Country": "Niger",
+        "Sex": "Male",
+        "LifeExpectancy": 62.06
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "BWA",
+        "Country": "Botswana",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 62.25
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GNQ",
+        "Country": "Equatorial Guinea",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 62.19
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MLI",
+        "Country": "Mali",
+        "Sex": "Male",
+        "LifeExpectancy": 62.2
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "ZAF",
+        "Country": "South Africa",
+        "Sex": "Male",
+        "LifeExpectancy": 62.2
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GIN",
+        "Country": "Guinea",
+        "Sex": "Female",
+        "LifeExpectancy": 62.25
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MWI",
+        "Country": "Malawi",
+        "Sex": "Male",
+        "LifeExpectancy": 62.31
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "CMR",
+        "Country": "Cameroon",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 62.36
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "COD",
+        "Country": "Democratic Republic of the Congo",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 62.35
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "GUY",
+        "Country": "Guyana",
+        "Sex": "Male",
+        "LifeExpectancy": 62.45
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "ZMB",
+        "Country": "Zambia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 62.45
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "NGA",
+        "Country": "Nigeria",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 62.62
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "BFA",
+        "Country": "Burkina Faso",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 62.7
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "VUT",
+        "Country": "Vanuatu",
+        "Sex": "Male",
+        "LifeExpectancy": 62.66
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "KIR",
+        "Country": "Kiribati",
+        "Sex": "Female",
+        "LifeExpectancy": 62.8
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MLI",
+        "Country": "Mali",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 62.8
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "SSD",
+        "Country": "South Sudan",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 62.79
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "CIV",
+        "Country": "C\u00c3\u00b4te d\u00e2\u20ac\u2122Ivoire",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 62.92
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "SLB",
+        "Country": "Solomon Islands",
+        "Sex": "Male",
+        "LifeExpectancy": 62.87
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GNB",
+        "Country": "Guinea-Bissau",
+        "Sex": "Female",
+        "LifeExpectancy": 62.98
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "FSM",
+        "Country": "Micronesia (Federated States of)",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 63.03
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "AGO",
+        "Country": "Angola",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 63.06
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "AFG",
+        "Country": "Afghanistan",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 63.21
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "AFG",
+        "Country": "Afghanistan",
+        "Sex": "Female",
+        "LifeExpectancy": 63.16
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "SWZ",
+        "Country": "Eswatini",
+        "Sex": "Female",
+        "LifeExpectancy": 63.18
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "LBR",
+        "Country": "Liberia",
+        "Sex": "Male",
+        "LifeExpectancy": 63.15
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "UGA",
+        "Country": "Uganda",
+        "Sex": "Male",
+        "LifeExpectancy": 63.24
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "AFG",
+        "Country": "Afghanistan",
+        "Sex": "Male",
+        "LifeExpectancy": 63.29
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "HTI",
+        "Country": "Haiti",
+        "Sex": "Male",
+        "LifeExpectancy": 63.34
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "NER",
+        "Country": "Niger",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 63.29
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "BEN",
+        "Country": "Benin",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 63.43
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GMB",
+        "Country": "Gambia",
+        "Sex": "Male",
+        "LifeExpectancy": 63.42
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MLI",
+        "Country": "Mali",
+        "Sex": "Female",
+        "LifeExpectancy": 63.4
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "PNG",
+        "Country": "Papua New Guinea",
+        "Sex": "Male",
+        "LifeExpectancy": 63.4
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GNQ",
+        "Country": "Equatorial Guinea",
+        "Sex": "Female",
+        "LifeExpectancy": 63.58
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GAB",
+        "Country": "Gabon",
+        "Sex": "Male",
+        "LifeExpectancy": 63.59
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "ZWE",
+        "Country": "Zimbabwe",
+        "Sex": "Female",
+        "LifeExpectancy": 63.61
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GHA",
+        "Country": "Ghana",
+        "Sex": "Male",
+        "LifeExpectancy": 63.66
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "KEN",
+        "Country": "Kenya",
+        "Sex": "Male",
+        "LifeExpectancy": 63.7
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "BDI",
+        "Country": "Burundi",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 63.84
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "COG",
+        "Country": "Congo",
+        "Sex": "Male",
+        "LifeExpectancy": 63.81
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "MNG",
+        "Country": "Mongolia",
+        "Sex": "Male",
+        "LifeExpectancy": 63.82
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "DJI",
+        "Country": "Djibouti",
+        "Sex": "Male",
+        "LifeExpectancy": 64.1
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "ERI",
+        "Country": "Eritrea",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 64.08
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "HTI",
+        "Country": "Haiti",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 64.05
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "LBR",
+        "Country": "Liberia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 64.08
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MDG",
+        "Country": "Madagascar",
+        "Sex": "Male",
+        "LifeExpectancy": 64.1
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "NGA",
+        "Country": "Nigeria",
+        "Sex": "Female",
+        "LifeExpectancy": 64.1
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "TGO",
+        "Country": "Togo",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 64.27
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "YEM",
+        "Country": "Yemen",
+        "Sex": "Male",
+        "LifeExpectancy": 64.41
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "CMR",
+        "Country": "Cameroon",
+        "Sex": "Female",
+        "LifeExpectancy": 64.5
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "NAM",
+        "Country": "Namibia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 64.58
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "NER",
+        "Country": "Niger",
+        "Sex": "Female",
+        "LifeExpectancy": 64.56
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "PAK",
+        "Country": "Pakistan",
+        "Sex": "Male",
+        "LifeExpectancy": 64.59
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "COG",
+        "Country": "Congo",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 64.74
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "COD",
+        "Country": "Democratic Republic of the Congo",
+        "Sex": "Female",
+        "LifeExpectancy": 64.82
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "HTI",
+        "Country": "Haiti",
+        "Sex": "Female",
+        "LifeExpectancy": 64.76
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "SSD",
+        "Country": "South Sudan",
+        "Sex": "Female",
+        "LifeExpectancy": 64.84
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "LBR",
+        "Country": "Liberia",
+        "Sex": "Female",
+        "LifeExpectancy": 65
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "BFA",
+        "Country": "Burkina Faso",
+        "Sex": "Female",
+        "LifeExpectancy": 65.23
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "SLB",
+        "Country": "Solomon Islands",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 65.25
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MDG",
+        "Country": "Madagascar",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 65.35
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "PNG",
+        "Country": "Papua New Guinea",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 65.3
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "ZAF",
+        "Country": "South Africa",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 65.25
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "VUT",
+        "Country": "Vanuatu",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 65.31
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "TZA",
+        "Country": "United Republic of Tanzania",
+        "Sex": "Male",
+        "LifeExpectancy": 65.37
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "ZMB",
+        "Country": "Zambia",
+        "Sex": "Female",
+        "LifeExpectancy": 65.37
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "AGO",
+        "Country": "Angola",
+        "Sex": "Female",
+        "LifeExpectancy": 65.52
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "BWA",
+        "Country": "Botswana",
+        "Sex": "Female",
+        "LifeExpectancy": 65.46
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GMB",
+        "Country": "Gambia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 65.47
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "COG",
+        "Country": "Congo",
+        "Sex": "Female",
+        "LifeExpectancy": 65.61
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MWI",
+        "Country": "Malawi",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 65.62
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "PAK",
+        "Country": "Pakistan",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 65.61
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "BEN",
+        "Country": "Benin",
+        "Sex": "Female",
+        "LifeExpectancy": 65.66
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "GUY",
+        "Country": "Guyana",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 65.69
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "CIV",
+        "Country": "C\u00c3\u00b4te d\u00e2\u20ac\u2122Ivoire",
+        "Sex": "Female",
+        "LifeExpectancy": 65.81
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "DJI",
+        "Country": "Djibouti",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 65.81
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "COM",
+        "Country": "Comoros",
+        "Sex": "Male",
+        "LifeExpectancy": 65.92
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "FJI",
+        "Country": "Fiji",
+        "Sex": "Male",
+        "LifeExpectancy": 65.93
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "MMR",
+        "Country": "Myanmar",
+        "Sex": "Male",
+        "LifeExpectancy": 65.91
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "FSM",
+        "Country": "Micronesia (Federated States of)",
+        "Sex": "Female",
+        "LifeExpectancy": 66.05
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "BDI",
+        "Country": "Burundi",
+        "Sex": "Female",
+        "LifeExpectancy": 66.14
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "KEN",
+        "Country": "Kenya",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 66.09
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "LAO",
+        "Country": "Lao People's Democratic Republic",
+        "Sex": "Male",
+        "LifeExpectancy": 66.19
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GHA",
+        "Country": "Ghana",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 66.28
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GAB",
+        "Country": "Gabon",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 66.47
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "TKM",
+        "Country": "Turkmenistan",
+        "Sex": "Male",
+        "LifeExpectancy": 66.48
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MDG",
+        "Country": "Madagascar",
+        "Sex": "Female",
+        "LifeExpectancy": 66.6
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "YEM",
+        "Country": "Yemen",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 66.63
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "PAK",
+        "Country": "Pakistan",
+        "Sex": "Female",
+        "LifeExpectancy": 66.72
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "UGA",
+        "Country": "Uganda",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 66.69
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "SEN",
+        "Country": "Senegal",
+        "Sex": "Male",
+        "LifeExpectancy": 66.82
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "ETH",
+        "Country": "Ethiopia",
+        "Sex": "Male",
+        "LifeExpectancy": 66.9
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "RWA",
+        "Country": "Rwanda",
+        "Sex": "Male",
+        "LifeExpectancy": 66.88
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "ERI",
+        "Country": "Eritrea",
+        "Sex": "Female",
+        "LifeExpectancy": 67.07
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "KHM",
+        "Country": "Cambodia",
+        "Sex": "Male",
+        "LifeExpectancy": 67.23
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "TGO",
+        "Country": "Togo",
+        "Sex": "Female",
+        "LifeExpectancy": 67.23
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "TZA",
+        "Country": "United Republic of Tanzania",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 67.34
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "COM",
+        "Country": "Comoros",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 67.39
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "PNG",
+        "Country": "Papua New Guinea",
+        "Sex": "Female",
+        "LifeExpectancy": 67.36
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "PHL",
+        "Country": "Philippines",
+        "Sex": "Male",
+        "LifeExpectancy": 67.4
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "SDN",
+        "Country": "Sudan",
+        "Sex": "Male",
+        "LifeExpectancy": 67.55
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "TJK",
+        "Country": "Tajikistan",
+        "Sex": "Male",
+        "LifeExpectancy": 67.58
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GMB",
+        "Country": "Gambia",
+        "Sex": "Female",
+        "LifeExpectancy": 67.65
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "DJI",
+        "Country": "Djibouti",
+        "Sex": "Female",
+        "LifeExpectancy": 67.78
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "SLB",
+        "Country": "Solomon Islands",
+        "Sex": "Female",
+        "LifeExpectancy": 67.87
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "TLS",
+        "Country": "Timor-Leste",
+        "Sex": "Male",
+        "LifeExpectancy": 67.93
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "FJI",
+        "Country": "Fiji",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 68.01
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "UKR",
+        "Country": "Ukraine",
+        "Sex": "Male",
+        "LifeExpectancy": 68
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MRT",
+        "Country": "Mauritania",
+        "Sex": "Male",
+        "LifeExpectancy": 68.08
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "MNG",
+        "Country": "Mongolia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 68.1
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "RUS",
+        "Country": "Russian Federation",
+        "Sex": "Male",
+        "LifeExpectancy": 68.18
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "ZAF",
+        "Country": "South Africa",
+        "Sex": "Female",
+        "LifeExpectancy": 68.29
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "VUT",
+        "Country": "Vanuatu",
+        "Sex": "Female",
+        "LifeExpectancy": 68.32
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "KEN",
+        "Country": "Kenya",
+        "Sex": "Female",
+        "LifeExpectancy": 68.44
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MRT",
+        "Country": "Mauritania",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 68.38
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "NAM",
+        "Country": "Namibia",
+        "Sex": "Female",
+        "LifeExpectancy": 68.45
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "LAO",
+        "Country": "Lao People's Democratic Republic",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 68.51
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "SUR",
+        "Country": "Suriname",
+        "Sex": "Male",
+        "LifeExpectancy": 68.5
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "SEN",
+        "Country": "Senegal",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 68.58
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "ETH",
+        "Country": "Ethiopia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 68.7
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MRT",
+        "Country": "Mauritania",
+        "Sex": "Female",
+        "LifeExpectancy": 68.73
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "AZE",
+        "Country": "Azerbaijan",
+        "Sex": "Male",
+        "LifeExpectancy": 68.78
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "GEO",
+        "Country": "Georgia",
+        "Sex": "Male",
+        "LifeExpectancy": 68.79
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "STP",
+        "Country": "Sao Tome and Principe",
+        "Sex": "Male",
+        "LifeExpectancy": 68.79
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "COM",
+        "Country": "Comoros",
+        "Sex": "Female",
+        "LifeExpectancy": 68.88
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MWI",
+        "Country": "Malawi",
+        "Sex": "Female",
+        "LifeExpectancy": 68.93
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "NPL",
+        "Country": "Nepal",
+        "Sex": "Male",
+        "LifeExpectancy": 68.88
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "YEM",
+        "Country": "Yemen",
+        "Sex": "Female",
+        "LifeExpectancy": 68.92
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "GTM",
+        "Country": "Guatemala",
+        "Sex": "Male",
+        "LifeExpectancy": 68.95
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "MMR",
+        "Country": "Myanmar",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 69.13
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "RWA",
+        "Country": "Rwanda",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 69.1
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "SDN",
+        "Country": "Sudan",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 69.15
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GHA",
+        "Country": "Ghana",
+        "Sex": "Female",
+        "LifeExpectancy": 69.16
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "WSM",
+        "Country": "Samoa",
+        "Sex": "Male",
+        "LifeExpectancy": 69.16
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "PRK",
+        "Country": "Democratic People's Republic of Korea",
+        "Sex": "Male",
+        "LifeExpectancy": 69.29
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "MDA",
+        "Country": "Republic of Moldova",
+        "Sex": "Male",
+        "LifeExpectancy": 69.26
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "TZA",
+        "Country": "United Republic of Tanzania",
+        "Sex": "Female",
+        "LifeExpectancy": 69.26
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "GUY",
+        "Country": "Guyana",
+        "Sex": "Female",
+        "LifeExpectancy": 69.39
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "IDN",
+        "Country": "Indonesia",
+        "Sex": "Male",
+        "LifeExpectancy": 69.4
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "IND",
+        "Country": "India",
+        "Sex": "Male",
+        "LifeExpectancy": 69.52
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "TJK",
+        "Country": "Tajikistan",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 69.5
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "EGY",
+        "Country": "Egypt",
+        "Sex": "Male",
+        "LifeExpectancy": 69.59
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "TLS",
+        "Country": "Timor-Leste",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 69.62
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "VNM",
+        "Country": "Viet Nam",
+        "Sex": "Male",
+        "LifeExpectancy": 69.56
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "BLR",
+        "Country": "Belarus",
+        "Sex": "Male",
+        "LifeExpectancy": 69.65
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GAB",
+        "Country": "Gabon",
+        "Sex": "Female",
+        "LifeExpectancy": 69.73
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "TKM",
+        "Country": "Turkmenistan",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 69.75
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "DOM",
+        "Country": "Dominican Republic",
+        "Sex": "Male",
+        "LifeExpectancy": 69.76
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "TON",
+        "Country": "Tonga",
+        "Sex": "Male",
+        "LifeExpectancy": 69.81
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "BHS",
+        "Country": "Bahamas",
+        "Sex": "Male",
+        "LifeExpectancy": 69.85
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "CPV",
+        "Country": "Cabo Verde",
+        "Sex": "Male",
+        "LifeExpectancy": 69.9
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "IRQ",
+        "Country": "Iraq",
+        "Sex": "Male",
+        "LifeExpectancy": 69.93
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "VEN",
+        "Country": "Venezuela (Bolivarian Republic of)",
+        "Sex": "Male",
+        "LifeExpectancy": 69.91
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "KAZ",
+        "Country": "Kazakhstan",
+        "Sex": "Male",
+        "LifeExpectancy": 69.98
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "SYC",
+        "Country": "Seychelles",
+        "Sex": "Male",
+        "LifeExpectancy": 69.98
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "KHM",
+        "Country": "Cambodia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 70.12
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "SEN",
+        "Country": "Senegal",
+        "Sex": "Female",
+        "LifeExpectancy": 70.14
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "UGA",
+        "Country": "Uganda",
+        "Sex": "Female",
+        "LifeExpectancy": 70.1
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "FJI",
+        "Country": "Fiji",
+        "Sex": "Female",
+        "LifeExpectancy": 70.28
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "PHL",
+        "Country": "Philippines",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 70.43
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "STP",
+        "Country": "Sao Tome and Principe",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 70.42
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "ETH",
+        "Country": "Ethiopia",
+        "Sex": "Female",
+        "LifeExpectancy": 70.52
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "WSM",
+        "Country": "Samoa",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 70.45
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "SLV",
+        "Country": "El Salvador",
+        "Sex": "Male",
+        "LifeExpectancy": 70.58
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "GRD",
+        "Country": "Grenada",
+        "Sex": "Male",
+        "LifeExpectancy": 70.63
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "LVA",
+        "Country": "Latvia",
+        "Sex": "Male",
+        "LifeExpectancy": 70.58
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "HND",
+        "Country": "Honduras",
+        "Sex": "Male",
+        "LifeExpectancy": 70.67
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "KGZ",
+        "Country": "Kyrgyzstan",
+        "Sex": "Male",
+        "LifeExpectancy": 70.75
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "IND",
+        "Country": "India",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 70.79
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "SDN",
+        "Country": "Sudan",
+        "Sex": "Female",
+        "LifeExpectancy": 70.76
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "UZB",
+        "Country": "Uzbekistan",
+        "Sex": "Male",
+        "LifeExpectancy": 70.76
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "LAO",
+        "Country": "Lao People's Democratic Republic",
+        "Sex": "Female",
+        "LifeExpectancy": 70.95
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "NPL",
+        "Country": "Nepal",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 70.88
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MUS",
+        "Country": "Mauritius",
+        "Sex": "Male",
+        "LifeExpectancy": 70.95
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "BOL",
+        "Country": "Bolivia (Plurinational State of)",
+        "Sex": "Male",
+        "LifeExpectancy": 71.15
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "LTU",
+        "Country": "Lithuania",
+        "Sex": "Male",
+        "LifeExpectancy": 71.23
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "RWA",
+        "Country": "Rwanda",
+        "Sex": "Female",
+        "LifeExpectancy": 71.24
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "SYR",
+        "Country": "Syrian Arab Republic",
+        "Sex": "Male",
+        "LifeExpectancy": 71.18
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "IDN",
+        "Country": "Indonesia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 71.31
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "LCA",
+        "Country": "Saint Lucia",
+        "Sex": "Male",
+        "LifeExpectancy": 71.3
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "VCT",
+        "Country": "Saint Vincent and the Grenadines",
+        "Sex": "Male",
+        "LifeExpectancy": 71.32
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "AZE",
+        "Country": "Azerbaijan",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 71.43
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "BLZ",
+        "Country": "Belize",
+        "Sex": "Male",
+        "LifeExpectancy": 71.36
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "TLS",
+        "Country": "Timor-Leste",
+        "Sex": "Female",
+        "LifeExpectancy": 71.41
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "SUR",
+        "Country": "Suriname",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 71.48
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "TJK",
+        "Country": "Tajikistan",
+        "Sex": "Female",
+        "LifeExpectancy": 71.55
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "BGR",
+        "Country": "Bulgaria",
+        "Sex": "Male",
+        "LifeExpectancy": 71.65
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "MAR",
+        "Country": "Morocco",
+        "Sex": "Male",
+        "LifeExpectancy": 71.68
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "EGY",
+        "Country": "Egypt",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 71.82
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "WSM",
+        "Country": "Samoa",
+        "Sex": "Female",
+        "LifeExpectancy": 71.85
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "HND",
+        "Country": "Honduras",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 71.94
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "BTN",
+        "Country": "Bhutan",
+        "Sex": "Male",
+        "LifeExpectancy": 72.03
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "GTM",
+        "Country": "Guatemala",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 72.02
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ROU",
+        "Country": "Romania",
+        "Sex": "Male",
+        "LifeExpectancy": 71.95
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "STP",
+        "Country": "Sao Tome and Principe",
+        "Sex": "Female",
+        "LifeExpectancy": 71.99
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "BOL",
+        "Country": "Bolivia (Plurinational State of)",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 72.14
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "NIC",
+        "Country": "Nicaragua",
+        "Sex": "Male",
+        "LifeExpectancy": 72.07
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "IND",
+        "Country": "India",
+        "Sex": "Female",
+        "LifeExpectancy": 72.17
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "MMR",
+        "Country": "Myanmar",
+        "Sex": "Female",
+        "LifeExpectancy": 72.2
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "BRA",
+        "Country": "Brazil",
+        "Sex": "Male",
+        "LifeExpectancy": 72.45
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "IRQ",
+        "Country": "Iraq",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 72.42
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ARM",
+        "Country": "Armenia",
+        "Sex": "Male",
+        "LifeExpectancy": 72.49
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "TTO",
+        "Country": "Trinidad and Tobago",
+        "Sex": "Male",
+        "LifeExpectancy": 72.54
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "PRK",
+        "Country": "Democratic People's Republic of Korea",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 72.63
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "MYS",
+        "Country": "Malaysia",
+        "Sex": "Male",
+        "LifeExpectancy": 72.61
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "TON",
+        "Country": "Tonga",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 72.57
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "KHM",
+        "Country": "Cambodia",
+        "Sex": "Female",
+        "LifeExpectancy": 72.75
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "NPL",
+        "Country": "Nepal",
+        "Sex": "Female",
+        "LifeExpectancy": 72.75
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "SYR",
+        "Country": "Syrian Arab Republic",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 72.67
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "DOM",
+        "Country": "Dominican Republic",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 72.84
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "MNG",
+        "Country": "Mongolia",
+        "Sex": "Female",
+        "LifeExpectancy": 72.76
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "MKD",
+        "Country": "The former Yugoslav Republic of Macedonia",
+        "Sex": "Male",
+        "LifeExpectancy": 72.84
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "GRD",
+        "Country": "Grenada",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 72.88
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "BGD",
+        "Country": "Bangladesh",
+        "Sex": "Male",
+        "LifeExpectancy": 72.99
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "MAR",
+        "Country": "Morocco",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 72.99
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "OMN",
+        "Country": "Oman",
+        "Sex": "Male",
+        "LifeExpectancy": 72.97
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "TKM",
+        "Country": "Turkmenistan",
+        "Sex": "Female",
+        "LifeExpectancy": 72.97
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "UKR",
+        "Country": "Ukraine",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 73.02
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "UZB",
+        "Country": "Uzbekistan",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 73.01
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "BTN",
+        "Country": "Bhutan",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 73.11
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "BOL",
+        "Country": "Bolivia (Plurinational State of)",
+        "Sex": "Female",
+        "LifeExpectancy": 73.13
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "HUN",
+        "Country": "Hungary",
+        "Sex": "Male",
+        "LifeExpectancy": 73.09
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "MEX",
+        "Country": "Mexico",
+        "Sex": "Male",
+        "LifeExpectancy": 73.13
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "PRY",
+        "Country": "Paraguay",
+        "Sex": "Male",
+        "LifeExpectancy": 73.08
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "SAU",
+        "Country": "Saudi Arabia",
+        "Sex": "Male",
+        "LifeExpectancy": 73.11
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "BHS",
+        "Country": "Bahamas",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 73.21
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "HND",
+        "Country": "Honduras",
+        "Sex": "Female",
+        "LifeExpectancy": 73.16
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "MNE",
+        "Country": "Montenegro",
+        "Sex": "Male",
+        "LifeExpectancy": 73.15
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "RUS",
+        "Country": "Russian Federation",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 73.23
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "VCT",
+        "Country": "Saint Vincent and the Grenadines",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 73.22
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "GEO",
+        "Country": "Georgia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 73.28
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "IDN",
+        "Country": "Indonesia",
+        "Sex": "Female",
+        "LifeExpectancy": 73.3
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "MDA",
+        "Country": "Republic of Moldova",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 73.26
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "SYC",
+        "Country": "Seychelles",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 73.34
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "BRN",
+        "Country": "Brunei Darussalam",
+        "Sex": "Male",
+        "LifeExpectancy": 73.39
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "ARG",
+        "Country": "Argentina",
+        "Sex": "Male",
+        "LifeExpectancy": 73.51
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "SRB",
+        "Country": "Serbia",
+        "Sex": "Male",
+        "LifeExpectancy": 73.46
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "URY",
+        "Country": "Uruguay",
+        "Sex": "Male",
+        "LifeExpectancy": 73.48
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "PHL",
+        "Country": "Philippines",
+        "Sex": "Female",
+        "LifeExpectancy": 73.6
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "VNM",
+        "Country": "Viet Nam",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 73.74
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "LKA",
+        "Country": "Sri Lanka",
+        "Sex": "Male",
+        "LifeExpectancy": 73.8
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "OMN",
+        "Country": "Oman",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 73.9
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "VEN",
+        "Country": "Venezuela (Bolivarian Republic of)",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 73.95
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "CPV",
+        "Country": "Cabo Verde",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 74.03
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "KAZ",
+        "Country": "Kazakhstan",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 73.95
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "LBN",
+        "Country": "Lebanon",
+        "Sex": "Male",
+        "LifeExpectancy": 74.03
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "AZE",
+        "Country": "Azerbaijan",
+        "Sex": "Female",
+        "LifeExpectancy": 74.09
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "EGY",
+        "Country": "Egypt",
+        "Sex": "Female",
+        "LifeExpectancy": 74.14
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MUS",
+        "Country": "Mauritius",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 74.07
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "KGZ",
+        "Country": "Kyrgyzstan",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 74.18
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "LBY",
+        "Country": "Libya",
+        "Sex": "Male",
+        "LifeExpectancy": 74.21
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "BGD",
+        "Country": "Bangladesh",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 74.25
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "BRB",
+        "Country": "Barbados",
+        "Sex": "Male",
+        "LifeExpectancy": 74.32
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "BRN",
+        "Country": "Brunei Darussalam",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 74.32
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "MAR",
+        "Country": "Morocco",
+        "Sex": "Female",
+        "LifeExpectancy": 74.31
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "LCA",
+        "Country": "Saint Lucia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 74.33
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "SAU",
+        "Country": "Saudi Arabia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 74.31
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "SYR",
+        "Country": "Syrian Arab Republic",
+        "Sex": "Female",
+        "LifeExpectancy": 74.26
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "BLZ",
+        "Country": "Belize",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 74.41
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "BTN",
+        "Country": "Bhutan",
+        "Sex": "Female",
+        "LifeExpectancy": 74.39
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "BIH",
+        "Country": "Bosnia and Herzegovina",
+        "Sex": "Male",
+        "LifeExpectancy": 74.38
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "JAM",
+        "Country": "Jamaica",
+        "Sex": "Male",
+        "LifeExpectancy": 74.36
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "THA",
+        "Country": "Thailand",
+        "Sex": "Male",
+        "LifeExpectancy": 74.36
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "POL",
+        "Country": "Poland",
+        "Sex": "Male",
+        "LifeExpectancy": 74.53
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "SUR",
+        "Country": "Suriname",
+        "Sex": "Female",
+        "LifeExpectancy": 74.63
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "CHN",
+        "Country": "China",
+        "Sex": "Male",
+        "LifeExpectancy": 74.73
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "EST",
+        "Country": "Estonia",
+        "Sex": "Male",
+        "LifeExpectancy": 74.7
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "MYS",
+        "Country": "Malaysia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 74.72
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "BLR",
+        "Country": "Belarus",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 74.81
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "MKD",
+        "Country": "The former Yugoslav Republic of Macedonia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 74.82
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "SVK",
+        "Country": "Slovakia",
+        "Sex": "Male",
+        "LifeExpectancy": 74.84
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "ATG",
+        "Country": "Antigua and Barbuda",
+        "Sex": "Male",
+        "LifeExpectancy": 74.88
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "TUN",
+        "Country": "Tunisia",
+        "Sex": "Male",
+        "LifeExpectancy": 74.88
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "BHR",
+        "Country": "Bahrain",
+        "Sex": "Male",
+        "LifeExpectancy": 75.04
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "SLV",
+        "Country": "El Salvador",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 75.03
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "GTM",
+        "Country": "Guatemala",
+        "Sex": "Female",
+        "LifeExpectancy": 75.04
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "IRQ",
+        "Country": "Iraq",
+        "Sex": "Female",
+        "LifeExpectancy": 74.97
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "NIC",
+        "Country": "Nicaragua",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 75.04
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "BGR",
+        "Country": "Bulgaria",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 75.07
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "ARE",
+        "Country": "United Arab Emirates",
+        "Sex": "Male",
+        "LifeExpectancy": 75.1
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "UZB",
+        "Country": "Uzbekistan",
+        "Sex": "Female",
+        "LifeExpectancy": 75.21
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "GRD",
+        "Country": "Grenada",
+        "Sex": "Female",
+        "LifeExpectancy": 75.33
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "OMN",
+        "Country": "Oman",
+        "Sex": "Female",
+        "LifeExpectancy": 75.26
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "VCT",
+        "Country": "Saint Vincent and the Grenadines",
+        "Sex": "Female",
+        "LifeExpectancy": 75.32
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "BRN",
+        "Country": "Brunei Darussalam",
+        "Sex": "Female",
+        "LifeExpectancy": 75.36
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "CUB",
+        "Country": "Cuba",
+        "Sex": "Male",
+        "LifeExpectancy": 75.37
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "LVA",
+        "Country": "Latvia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 75.38
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "HRV",
+        "Country": "Croatia",
+        "Sex": "Male",
+        "LifeExpectancy": 75.54
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "BGD",
+        "Country": "Bangladesh",
+        "Sex": "Female",
+        "LifeExpectancy": 75.64
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ROU",
+        "Country": "Romania",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 75.57
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "TON",
+        "Country": "Tonga",
+        "Sex": "Female",
+        "LifeExpectancy": 75.61
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "PRK",
+        "Country": "Democratic People's Republic of Korea",
+        "Sex": "Female",
+        "LifeExpectancy": 75.69
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "IRN",
+        "Country": "Iran (Islamic Republic of)",
+        "Sex": "Male",
+        "LifeExpectancy": 75.69
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "BHR",
+        "Country": "Bahrain",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 75.81
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "LBY",
+        "Country": "Libya",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 75.78
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "PRY",
+        "Country": "Paraguay",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 75.81
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "BRA",
+        "Country": "Brazil",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 75.9
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "MNE",
+        "Country": "Montenegro",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 75.88
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "SRB",
+        "Country": "Serbia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 75.87
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ARM",
+        "Country": "Armenia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 76.03
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "BRB",
+        "Country": "Barbados",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 76.03
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "JAM",
+        "Country": "Jamaica",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 75.98
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "LTU",
+        "Country": "Lithuania",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 75.99
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "MEX",
+        "Country": "Mexico",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 76.01
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "SAU",
+        "Country": "Saudi Arabia",
+        "Sex": "Female",
+        "LifeExpectancy": 76.15
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "TTO",
+        "Country": "Trinidad and Tobago",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 76.13
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "ARE",
+        "Country": "United Arab Emirates",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 76.08
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "DZA",
+        "Country": "Algeria",
+        "Sex": "Male",
+        "LifeExpectancy": 76.23
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "DOM",
+        "Country": "Dominican Republic",
+        "Sex": "Female",
+        "LifeExpectancy": 76.19
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ALB",
+        "Country": "Albania",
+        "Sex": "Male",
+        "LifeExpectancy": 76.25
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "CZE",
+        "Country": "Czechia",
+        "Sex": "Male",
+        "LifeExpectancy": 76.3
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "USA",
+        "Country": "United States of America",
+        "Sex": "Male",
+        "LifeExpectancy": 76.28
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "ECU",
+        "Country": "Ecuador",
+        "Sex": "Male",
+        "LifeExpectancy": 76.41
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "HUN",
+        "Country": "Hungary",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 76.44
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "LBN",
+        "Country": "Lebanon",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 76.44
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "TUR",
+        "Country": "T\u00c3\u00bcrkiye",
+        "Sex": "Male",
+        "LifeExpectancy": 76.44
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "ATG",
+        "Country": "Antigua and Barbuda",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 76.45
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "ARG",
+        "Country": "Argentina",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 76.58
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "BHS",
+        "Country": "Bahamas",
+        "Sex": "Female",
+        "LifeExpectancy": 76.59
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "PAN",
+        "Country": "Panama",
+        "Sex": "Male",
+        "LifeExpectancy": 76.65
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "QAT",
+        "Country": "Qatar",
+        "Sex": "Female",
+        "LifeExpectancy": 76.63
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "COL",
+        "Country": "Colombia",
+        "Sex": "Male",
+        "LifeExpectancy": 76.69
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "BIH",
+        "Country": "Bosnia and Herzegovina",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 76.75
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "MKD",
+        "Country": "The former Yugoslav Republic of Macedonia",
+        "Sex": "Female",
+        "LifeExpectancy": 76.87
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "LKA",
+        "Country": "Sri Lanka",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 76.87
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "BHR",
+        "Country": "Bahrain",
+        "Sex": "Female",
+        "LifeExpectancy": 77.02
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "JOR",
+        "Country": "Jordan",
+        "Sex": "Male",
+        "LifeExpectancy": 77.02
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "TUN",
+        "Country": "Tunisia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 77.04
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "DZA",
+        "Country": "Algeria",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 77.13
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "MYS",
+        "Country": "Malaysia",
+        "Sex": "Female",
+        "LifeExpectancy": 77.08
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "MDA",
+        "Country": "Republic of Moldova",
+        "Sex": "Female",
+        "LifeExpectancy": 77.12
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "SYC",
+        "Country": "Seychelles",
+        "Sex": "Female",
+        "LifeExpectancy": 77.15
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "URY",
+        "Country": "Uruguay",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 77.1
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "QAT",
+        "Country": "Qatar",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 77.17
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "IRN",
+        "Country": "Iran (Islamic Republic of)",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 77.35
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "KGZ",
+        "Country": "Kyrgyzstan",
+        "Sex": "Female",
+        "LifeExpectancy": 77.31
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "LBY",
+        "Country": "Libya",
+        "Sex": "Female",
+        "LifeExpectancy": 77.34
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MUS",
+        "Country": "Mauritius",
+        "Sex": "Female",
+        "LifeExpectancy": 77.32
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "CHN",
+        "Country": "China",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 77.43
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "KAZ",
+        "Country": "Kazakhstan",
+        "Sex": "Female",
+        "LifeExpectancy": 77.61
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "BRB",
+        "Country": "Barbados",
+        "Sex": "Female",
+        "LifeExpectancy": 77.66
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "JAM",
+        "Country": "Jamaica",
+        "Sex": "Female",
+        "LifeExpectancy": 77.68
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "LCA",
+        "Country": "Saint Lucia",
+        "Sex": "Female",
+        "LifeExpectancy": 77.71
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "THA",
+        "Country": "Thailand",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 77.7
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "BLZ",
+        "Country": "Belize",
+        "Sex": "Female",
+        "LifeExpectancy": 77.77
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "CUB",
+        "Country": "Cuba",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 77.76
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "GEO",
+        "Country": "Georgia",
+        "Sex": "Female",
+        "LifeExpectancy": 77.76
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "UKR",
+        "Country": "Ukraine",
+        "Sex": "Female",
+        "LifeExpectancy": 77.81
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "CPV",
+        "Country": "Cabo Verde",
+        "Sex": "Female",
+        "LifeExpectancy": 77.94
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "JOR",
+        "Country": "Jordan",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 77.87
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "NIC",
+        "Country": "Nicaragua",
+        "Sex": "Female",
+        "LifeExpectancy": 77.93
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ALB",
+        "Country": "Albania",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 78
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "ATG",
+        "Country": "Antigua and Barbuda",
+        "Sex": "Female",
+        "LifeExpectancy": 77.96
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "QAT",
+        "Country": "Qatar",
+        "Sex": "Male",
+        "LifeExpectancy": 78.03
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "RUS",
+        "Country": "Russian Federation",
+        "Sex": "Female",
+        "LifeExpectancy": 78
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "DZA",
+        "Country": "Algeria",
+        "Sex": "Female",
+        "LifeExpectancy": 78.12
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "CHL",
+        "Country": "Chile",
+        "Sex": "Male",
+        "LifeExpectancy": 78.09
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "VNM",
+        "Country": "Viet Nam",
+        "Sex": "Female",
+        "LifeExpectancy": 78.11
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "SVK",
+        "Country": "Slovakia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 78.23
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "VEN",
+        "Country": "Venezuela (Bolivarian Republic of)",
+        "Sex": "Female",
+        "LifeExpectancy": 78.17
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "CRI",
+        "Country": "Costa Rica",
+        "Sex": "Male",
+        "LifeExpectancy": 78.31
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "POL",
+        "Country": "Poland",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 78.27
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "SRB",
+        "Country": "Serbia",
+        "Sex": "Female",
+        "LifeExpectancy": 78.28
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "ECU",
+        "Country": "Ecuador",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 78.45
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "ARE",
+        "Country": "United Arab Emirates",
+        "Sex": "Female",
+        "LifeExpectancy": 78.42
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "PER",
+        "Country": "Peru",
+        "Sex": "Male",
+        "LifeExpectancy": 78.46
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "USA",
+        "Country": "United States of America",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 78.5
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "BGR",
+        "Country": "Bulgaria",
+        "Sex": "Female",
+        "LifeExpectancy": 78.6
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "HRV",
+        "Country": "Croatia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 78.64
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "GRC",
+        "Country": "Greece",
+        "Sex": "Male",
+        "LifeExpectancy": 78.64
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "MDV",
+        "Country": "Maldives",
+        "Sex": "Male",
+        "LifeExpectancy": 78.63
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "PRT",
+        "Country": "Portugal",
+        "Sex": "Male",
+        "LifeExpectancy": 78.56
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "SVN",
+        "Country": "Slovenia",
+        "Sex": "Male",
+        "LifeExpectancy": 78.59
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "TUR",
+        "Country": "T\u00c3\u00bcrkiye",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 78.62
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "DEU",
+        "Country": "Germany",
+        "Sex": "Male",
+        "LifeExpectancy": 78.72
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "MNE",
+        "Country": "Montenegro",
+        "Sex": "Female",
+        "LifeExpectancy": 78.65
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "JOR",
+        "Country": "Jordan",
+        "Sex": "Female",
+        "LifeExpectancy": 78.78
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "PRY",
+        "Country": "Paraguay",
+        "Sex": "Female",
+        "LifeExpectancy": 78.85
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "EST",
+        "Country": "Estonia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 78.88
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "MEX",
+        "Country": "Mexico",
+        "Sex": "Female",
+        "LifeExpectancy": 78.86
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "BIH",
+        "Country": "Bosnia and Herzegovina",
+        "Sex": "Female",
+        "LifeExpectancy": 79.09
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "CZE",
+        "Country": "Czechia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 79.13
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "SLV",
+        "Country": "El Salvador",
+        "Sex": "Female",
+        "LifeExpectancy": 79.13
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "IRN",
+        "Country": "Iran (Islamic Republic of)",
+        "Sex": "Female",
+        "LifeExpectancy": 79.09
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ARM",
+        "Country": "Armenia",
+        "Sex": "Female",
+        "LifeExpectancy": 79.16
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "FIN",
+        "Country": "Finland",
+        "Sex": "Male",
+        "LifeExpectancy": 79.16
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "LBN",
+        "Country": "Lebanon",
+        "Sex": "Female",
+        "LifeExpectancy": 79.15
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "TUN",
+        "Country": "Tunisia",
+        "Sex": "Female",
+        "LifeExpectancy": 79.19
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "BEL",
+        "Country": "Belgium",
+        "Sex": "Male",
+        "LifeExpectancy": 79.29
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "COL",
+        "Country": "Colombia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 79.31
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "KWT",
+        "Country": "Kuwait",
+        "Sex": "Male",
+        "LifeExpectancy": 79.25
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "PAN",
+        "Country": "Panama",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 79.29
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ROU",
+        "Country": "Romania",
+        "Sex": "Female",
+        "LifeExpectancy": 79.26
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "AUT",
+        "Country": "Austria",
+        "Sex": "Male",
+        "LifeExpectancy": 79.44
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "BRA",
+        "Country": "Brazil",
+        "Sex": "Female",
+        "LifeExpectancy": 79.39
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "ARG",
+        "Country": "Argentina",
+        "Sex": "Female",
+        "LifeExpectancy": 79.5
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "BLR",
+        "Country": "Belarus",
+        "Sex": "Female",
+        "LifeExpectancy": 79.62
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "DNK",
+        "Country": "Denmark",
+        "Sex": "Male",
+        "LifeExpectancy": 79.59
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "HUN",
+        "Country": "Hungary",
+        "Sex": "Female",
+        "LifeExpectancy": 79.59
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "MDV",
+        "Country": "Maldives",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 79.59
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "FRA",
+        "Country": "France",
+        "Sex": "Male",
+        "LifeExpectancy": 79.76
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "LVA",
+        "Country": "Latvia",
+        "Sex": "Female",
+        "LifeExpectancy": 79.84
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "LKA",
+        "Country": "Sri Lanka",
+        "Sex": "Female",
+        "LifeExpectancy": 79.81
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "GBR",
+        "Country": "United Kingdom of Great Britain and Northern Ireland",
+        "Sex": "Male",
+        "LifeExpectancy": 79.79
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ALB",
+        "Country": "Albania",
+        "Sex": "Female",
+        "LifeExpectancy": 79.91
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "MLT",
+        "Country": "Malta",
+        "Sex": "Male",
+        "LifeExpectancy": 79.94
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "PER",
+        "Country": "Peru",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 79.9
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "TTO",
+        "Country": "Trinidad and Tobago",
+        "Sex": "Female",
+        "LifeExpectancy": 79.92
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "IRL",
+        "Country": "Ireland",
+        "Sex": "Male",
+        "LifeExpectancy": 80.2
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "CUB",
+        "Country": "Cuba",
+        "Sex": "Female",
+        "LifeExpectancy": 80.25
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "KOR",
+        "Country": "Republic of Korea",
+        "Sex": "Male",
+        "LifeExpectancy": 80.32
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "CAN",
+        "Country": "Canada",
+        "Sex": "Male",
+        "LifeExpectancy": 80.4
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "LTU",
+        "Country": "Lithuania",
+        "Sex": "Female",
+        "LifeExpectancy": 80.43
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "NLD",
+        "Country": "Netherlands",
+        "Sex": "Male",
+        "LifeExpectancy": 80.4
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "NZL",
+        "Country": "New Zealand",
+        "Sex": "Male",
+        "LifeExpectancy": 80.36
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "CHN",
+        "Country": "China",
+        "Sex": "Female",
+        "LifeExpectancy": 80.49
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "ECU",
+        "Country": "Ecuador",
+        "Sex": "Female",
+        "LifeExpectancy": 80.5
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "LUX",
+        "Country": "Luxembourg",
+        "Sex": "Male",
+        "LifeExpectancy": 80.62
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "URY",
+        "Country": "Uruguay",
+        "Sex": "Female",
+        "LifeExpectancy": 80.56
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "CHL",
+        "Country": "Chile",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 80.74
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ESP",
+        "Country": "Spain",
+        "Sex": "Male",
+        "LifeExpectancy": 80.68
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "TUR",
+        "Country": "T\u00c3\u00bcrkiye",
+        "Sex": "Female",
+        "LifeExpectancy": 80.67
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "USA",
+        "Country": "United States of America",
+        "Sex": "Female",
+        "LifeExpectancy": 80.73
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "CRI",
+        "Country": "Costa Rica",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 80.85
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ISL",
+        "Country": "Iceland",
+        "Sex": "Male",
+        "LifeExpectancy": 80.81
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ISR",
+        "Country": "Israel",
+        "Sex": "Male",
+        "LifeExpectancy": 80.79
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "MDV",
+        "Country": "Maldives",
+        "Sex": "Female",
+        "LifeExpectancy": 80.76
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "SWE",
+        "Country": "Sweden",
+        "Sex": "Male",
+        "LifeExpectancy": 80.83
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ITA",
+        "Country": "Italy",
+        "Sex": "Male",
+        "LifeExpectancy": 80.91
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "KWT",
+        "Country": "Kuwait",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 80.97
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "SGP",
+        "Country": "Singapore",
+        "Sex": "Male",
+        "LifeExpectancy": 81.05
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "THA",
+        "Country": "Thailand",
+        "Sex": "Female",
+        "LifeExpectancy": 81.04
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "CYP",
+        "Country": "Cyprus",
+        "Sex": "Male",
+        "LifeExpectancy": 81.12
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "GRC",
+        "Country": "Greece",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 81.1
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "NOR",
+        "Country": "Norway",
+        "Sex": "Male",
+        "LifeExpectancy": 81.08
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "AUS",
+        "Country": "Australia",
+        "Sex": "Male",
+        "LifeExpectancy": 81.25
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "DNK",
+        "Country": "Denmark",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 81.32
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "PER",
+        "Country": "Peru",
+        "Sex": "Female",
+        "LifeExpectancy": 81.34
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "SVN",
+        "Country": "Slovenia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 81.31
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "BEL",
+        "Country": "Belgium",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 81.42
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "SVK",
+        "Country": "Slovakia",
+        "Sex": "Female",
+        "LifeExpectancy": 81.44
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "GBR",
+        "Country": "United Kingdom of Great Britain and Northern Ireland",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 81.4
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "JPN",
+        "Country": "Japan",
+        "Sex": "Male",
+        "LifeExpectancy": 81.49
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "AUT",
+        "Country": "Austria",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 81.65
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "HRV",
+        "Country": "Croatia",
+        "Sex": "Female",
+        "LifeExpectancy": 81.6
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "FIN",
+        "Country": "Finland",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 81.61
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "PRT",
+        "Country": "Portugal",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 81.57
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "DEU",
+        "Country": "Germany",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 81.72
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "IRL",
+        "Country": "Ireland",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 81.84
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "NLD",
+        "Country": "Netherlands",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 81.79
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "CHE",
+        "Country": "Switzerland",
+        "Sex": "Male",
+        "LifeExpectancy": 81.75
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "COL",
+        "Country": "Colombia",
+        "Sex": "Female",
+        "LifeExpectancy": 81.87
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "CZE",
+        "Country": "Czechia",
+        "Sex": "Female",
+        "LifeExpectancy": 81.93
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "MLT",
+        "Country": "Malta",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 81.89
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "POL",
+        "Country": "Poland",
+        "Sex": "Female",
+        "LifeExpectancy": 81.93
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "NZL",
+        "Country": "New Zealand",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 81.96
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "PAN",
+        "Country": "Panama",
+        "Sex": "Female",
+        "LifeExpectancy": 82.06
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "CAN",
+        "Country": "Canada",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 82.24
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ISL",
+        "Country": "Iceland",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 82.33
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "LUX",
+        "Country": "Luxembourg",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 82.41
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "SWE",
+        "Country": "Sweden",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 82.4
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "FRA",
+        "Country": "France",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 82.48
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "EST",
+        "Country": "Estonia",
+        "Sex": "Female",
+        "LifeExpectancy": 82.6
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ISR",
+        "Country": "Israel",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 82.62
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "NOR",
+        "Country": "Norway",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 82.62
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "AUS",
+        "Country": "Australia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 83.04
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "DNK",
+        "Country": "Denmark",
+        "Sex": "Female",
+        "LifeExpectancy": 83.02
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ITA",
+        "Country": "Italy",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 82.97
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "GBR",
+        "Country": "United Kingdom of Great Britain and Northern Ireland",
+        "Sex": "Female",
+        "LifeExpectancy": 82.99
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "CYP",
+        "Country": "Cyprus",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 83.14
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "NLD",
+        "Country": "Netherlands",
+        "Sex": "Female",
+        "LifeExpectancy": 83.15
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "CHL",
+        "Country": "Chile",
+        "Sex": "Female",
+        "LifeExpectancy": 83.25
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "SGP",
+        "Country": "Singapore",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 83.22
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ESP",
+        "Country": "Spain",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 83.22
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "KOR",
+        "Country": "Republic of Korea",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 83.3
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "CRI",
+        "Country": "Costa Rica",
+        "Sex": "Female",
+        "LifeExpectancy": 83.44
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "CHE",
+        "Country": "Switzerland",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 83.45
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "BEL",
+        "Country": "Belgium",
+        "Sex": "Female",
+        "LifeExpectancy": 83.51
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "IRL",
+        "Country": "Ireland",
+        "Sex": "Female",
+        "LifeExpectancy": 83.48
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "NZL",
+        "Country": "New Zealand",
+        "Sex": "Female",
+        "LifeExpectancy": 83.52
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "GRC",
+        "Country": "Greece",
+        "Sex": "Female",
+        "LifeExpectancy": 83.57
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "AUT",
+        "Country": "Austria",
+        "Sex": "Female",
+        "LifeExpectancy": 83.78
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "MLT",
+        "Country": "Malta",
+        "Sex": "Female",
+        "LifeExpectancy": 83.8
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ISL",
+        "Country": "Iceland",
+        "Sex": "Female",
+        "LifeExpectancy": 83.87
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "KWT",
+        "Country": "Kuwait",
+        "Sex": "Female",
+        "LifeExpectancy": 83.95
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "FIN",
+        "Country": "Finland",
+        "Sex": "Female",
+        "LifeExpectancy": 84.04
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "SWE",
+        "Country": "Sweden",
+        "Sex": "Female",
+        "LifeExpectancy": 83.97
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "CAN",
+        "Country": "Canada",
+        "Sex": "Female",
+        "LifeExpectancy": 84.05
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "NOR",
+        "Country": "Norway",
+        "Sex": "Female",
+        "LifeExpectancy": 84.13
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "SVN",
+        "Country": "Slovenia",
+        "Sex": "Female",
+        "LifeExpectancy": 84.06
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "LUX",
+        "Country": "Luxembourg",
+        "Sex": "Female",
+        "LifeExpectancy": 84.2
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "JPN",
+        "Country": "Japan",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 84.26
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ISR",
+        "Country": "Israel",
+        "Sex": "Female",
+        "LifeExpectancy": 84.36
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "PRT",
+        "Country": "Portugal",
+        "Sex": "Female",
+        "LifeExpectancy": 84.4
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "AUS",
+        "Country": "Australia",
+        "Sex": "Female",
+        "LifeExpectancy": 84.84
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "DEU",
+        "Country": "Germany",
+        "Sex": "Female",
+        "LifeExpectancy": 84.77
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ITA",
+        "Country": "Italy",
+        "Sex": "Female",
+        "LifeExpectancy": 84.9
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "CYP",
+        "Country": "Cyprus",
+        "Sex": "Female",
+        "LifeExpectancy": 85.12
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "FRA",
+        "Country": "France",
+        "Sex": "Female",
+        "LifeExpectancy": 85.09
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "CHE",
+        "Country": "Switzerland",
+        "Sex": "Female",
+        "LifeExpectancy": 85.08
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "SGP",
+        "Country": "Singapore",
+        "Sex": "Female",
+        "LifeExpectancy": 85.45
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ESP",
+        "Country": "Spain",
+        "Sex": "Female",
+        "LifeExpectancy": 85.68
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "KOR",
+        "Country": "Republic of Korea",
+        "Sex": "Female",
+        "LifeExpectancy": 86.09
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "JPN",
+        "Country": "Japan",
+        "Sex": "Female",
+        "LifeExpectancy": 86.94
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "LSO",
+        "Country": "Lesotho",
+        "Sex": "Male",
+        "LifeExpectancy": 11.22
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "CAF",
+        "Country": "Central African Republic",
+        "Sex": "Male",
+        "LifeExpectancy": 11.31
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "SWZ",
+        "Country": "Eswatini",
+        "Sex": "Male",
+        "LifeExpectancy": 12.41
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "KIR",
+        "Country": "Kiribati",
+        "Sex": "Male",
+        "LifeExpectancy": 12.5
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "CAF",
+        "Country": "Central African Republic",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 13.17
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "SOM",
+        "Country": "Somalia",
+        "Sex": "Male",
+        "LifeExpectancy": 13.22
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MOZ",
+        "Country": "Mozambique",
+        "Sex": "Male",
+        "LifeExpectancy": 13.34
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "LSO",
+        "Country": "Lesotho",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 13.43
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "ZWE",
+        "Country": "Zimbabwe",
+        "Sex": "Male",
+        "LifeExpectancy": 13.59
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "KIR",
+        "Country": "Kiribati",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 13.69
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "FSM",
+        "Country": "Micronesia (Federated States of)",
+        "Sex": "Male",
+        "LifeExpectancy": 13.82
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GNB",
+        "Country": "Guinea-Bissau",
+        "Sex": "Male",
+        "LifeExpectancy": 13.92
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "ERI",
+        "Country": "Eritrea",
+        "Sex": "Male",
+        "LifeExpectancy": 14.13
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "BWA",
+        "Country": "Botswana",
+        "Sex": "Male",
+        "LifeExpectancy": 14.16
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "MNG",
+        "Country": "Mongolia",
+        "Sex": "Male",
+        "LifeExpectancy": 14.16
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "SOM",
+        "Country": "Somalia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 14.54
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "KIR",
+        "Country": "Kiribati",
+        "Sex": "Female",
+        "LifeExpectancy": 14.64
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "FSM",
+        "Country": "Micronesia (Federated States of)",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 14.7
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "NAM",
+        "Country": "Namibia",
+        "Sex": "Male",
+        "LifeExpectancy": 14.68
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "SLB",
+        "Country": "Solomon Islands",
+        "Sex": "Male",
+        "LifeExpectancy": 14.71
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "ZMB",
+        "Country": "Zambia",
+        "Sex": "Male",
+        "LifeExpectancy": 14.68
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "VUT",
+        "Country": "Vanuatu",
+        "Sex": "Male",
+        "LifeExpectancy": 14.83
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "CAF",
+        "Country": "Central African Republic",
+        "Sex": "Female",
+        "LifeExpectancy": 14.85
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "FJI",
+        "Country": "Fiji",
+        "Sex": "Male",
+        "LifeExpectancy": 14.88
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "AFG",
+        "Country": "Afghanistan",
+        "Sex": "Female",
+        "LifeExpectancy": 15.06
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "SWZ",
+        "Country": "Eswatini",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 15.1
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "GUY",
+        "Country": "Guyana",
+        "Sex": "Male",
+        "LifeExpectancy": 15.1
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MWI",
+        "Country": "Malawi",
+        "Sex": "Male",
+        "LifeExpectancy": 15.13
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "TJK",
+        "Country": "Tajikistan",
+        "Sex": "Male",
+        "LifeExpectancy": 15.1
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "AFG",
+        "Country": "Afghanistan",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 15.21
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "BFA",
+        "Country": "Burkina Faso",
+        "Sex": "Male",
+        "LifeExpectancy": 15.23
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "BDI",
+        "Country": "Burundi",
+        "Sex": "Male",
+        "LifeExpectancy": 15.22
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GAB",
+        "Country": "Gabon",
+        "Sex": "Male",
+        "LifeExpectancy": 15.15
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "LSO",
+        "Country": "Lesotho",
+        "Sex": "Female",
+        "LifeExpectancy": 15.24
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "AFG",
+        "Country": "Afghanistan",
+        "Sex": "Male",
+        "LifeExpectancy": 15.39
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "AGO",
+        "Country": "Angola",
+        "Sex": "Male",
+        "LifeExpectancy": 15.38
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "COD",
+        "Country": "Democratic Republic of the Congo",
+        "Sex": "Male",
+        "LifeExpectancy": 15.35
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "PNG",
+        "Country": "Papua New Guinea",
+        "Sex": "Male",
+        "LifeExpectancy": 15.37
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "TGO",
+        "Country": "Togo",
+        "Sex": "Male",
+        "LifeExpectancy": 15.44
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "ERI",
+        "Country": "Eritrea",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 15.5
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GNB",
+        "Country": "Guinea-Bissau",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 15.5
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "SLB",
+        "Country": "Solomon Islands",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 15.47
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "AZE",
+        "Country": "Azerbaijan",
+        "Sex": "Male",
+        "LifeExpectancy": 15.65
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GIN",
+        "Country": "Guinea",
+        "Sex": "Male",
+        "LifeExpectancy": 15.62
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "FSM",
+        "Country": "Micronesia (Federated States of)",
+        "Sex": "Female",
+        "LifeExpectancy": 15.58
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "ZWE",
+        "Country": "Zimbabwe",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 15.55
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "TCD",
+        "Country": "Chad",
+        "Sex": "Male",
+        "LifeExpectancy": 15.68
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "COG",
+        "Country": "Congo",
+        "Sex": "Male",
+        "LifeExpectancy": 15.71
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GHA",
+        "Country": "Ghana",
+        "Sex": "Male",
+        "LifeExpectancy": 15.66
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "UGA",
+        "Country": "Uganda",
+        "Sex": "Male",
+        "LifeExpectancy": 15.67
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "VUT",
+        "Country": "Vanuatu",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 15.68
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "CIV",
+        "Country": "C\u00c3\u00b4te d\u00e2\u20ac\u2122Ivoire",
+        "Sex": "Male",
+        "LifeExpectancy": 15.84
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "CMR",
+        "Country": "Cameroon",
+        "Sex": "Male",
+        "LifeExpectancy": 15.77
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GMB",
+        "Country": "Gambia",
+        "Sex": "Male",
+        "LifeExpectancy": 15.77
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MOZ",
+        "Country": "Mozambique",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 15.8
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "PHL",
+        "Country": "Philippines",
+        "Sex": "Male",
+        "LifeExpectancy": 15.84
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "KHM",
+        "Country": "Cambodia",
+        "Sex": "Male",
+        "LifeExpectancy": 15.93
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "BLR",
+        "Country": "Belarus",
+        "Sex": "Male",
+        "LifeExpectancy": 16.04
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "GEO",
+        "Country": "Georgia",
+        "Sex": "Male",
+        "LifeExpectancy": 16.05
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "KEN",
+        "Country": "Kenya",
+        "Sex": "Male",
+        "LifeExpectancy": 15.99
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "SOM",
+        "Country": "Somalia",
+        "Sex": "Female",
+        "LifeExpectancy": 16.01
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "BEN",
+        "Country": "Benin",
+        "Sex": "Male",
+        "LifeExpectancy": 16.13
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MDG",
+        "Country": "Madagascar",
+        "Sex": "Male",
+        "LifeExpectancy": 16.15
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "TJK",
+        "Country": "Tajikistan",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 16.12
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "BWA",
+        "Country": "Botswana",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 16.25
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "FJI",
+        "Country": "Fiji",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 16.18
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "MMR",
+        "Country": "Myanmar",
+        "Sex": "Male",
+        "LifeExpectancy": 16.17
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "LAO",
+        "Country": "Lao People's Democratic Republic",
+        "Sex": "Male",
+        "LifeExpectancy": 16.35
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "SLB",
+        "Country": "Solomon Islands",
+        "Sex": "Female",
+        "LifeExpectancy": 16.28
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "COG",
+        "Country": "Congo",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 16.45
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "MNG",
+        "Country": "Mongolia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 16.41
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "SLE",
+        "Country": "Sierra Leone",
+        "Sex": "Male",
+        "LifeExpectancy": 16.43
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "SUR",
+        "Country": "Suriname",
+        "Sex": "Male",
+        "LifeExpectancy": 16.37
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "UKR",
+        "Country": "Ukraine",
+        "Sex": "Male",
+        "LifeExpectancy": 16.43
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "BDI",
+        "Country": "Burundi",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 16.47
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "TCD",
+        "Country": "Chad",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 16.54
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "EGY",
+        "Country": "Egypt",
+        "Sex": "Male",
+        "LifeExpectancy": 16.49
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GNQ",
+        "Country": "Equatorial Guinea",
+        "Sex": "Male",
+        "LifeExpectancy": 16.54
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GIN",
+        "Country": "Guinea",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 16.54
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "HTI",
+        "Country": "Haiti",
+        "Sex": "Male",
+        "LifeExpectancy": 16.5
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "PNG",
+        "Country": "Papua New Guinea",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 16.48
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "ZMB",
+        "Country": "Zambia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 16.53
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "COD",
+        "Country": "Democratic Republic of the Congo",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 16.63
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "DJI",
+        "Country": "Djibouti",
+        "Sex": "Male",
+        "LifeExpectancy": 16.63
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "GUY",
+        "Country": "Guyana",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 16.55
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "NER",
+        "Country": "Niger",
+        "Sex": "Male",
+        "LifeExpectancy": 16.59
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "MDA",
+        "Country": "Republic of Moldova",
+        "Sex": "Male",
+        "LifeExpectancy": 16.63
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "RWA",
+        "Country": "Rwanda",
+        "Sex": "Male",
+        "LifeExpectancy": 16.65
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "SSD",
+        "Country": "South Sudan",
+        "Sex": "Male",
+        "LifeExpectancy": 16.61
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GNB",
+        "Country": "Guinea-Bissau",
+        "Sex": "Female",
+        "LifeExpectancy": 16.72
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "IDN",
+        "Country": "Indonesia",
+        "Sex": "Male",
+        "LifeExpectancy": 16.73
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "STP",
+        "Country": "Sao Tome and Principe",
+        "Sex": "Male",
+        "LifeExpectancy": 16.72
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "VUT",
+        "Country": "Vanuatu",
+        "Sex": "Female",
+        "LifeExpectancy": 16.67
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "BFA",
+        "Country": "Burkina Faso",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 16.82
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "CPV",
+        "Country": "Cabo Verde",
+        "Sex": "Male",
+        "LifeExpectancy": 16.82
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "PRK",
+        "Country": "Democratic People's Republic of Korea",
+        "Sex": "Male",
+        "LifeExpectancy": 16.8
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "ERI",
+        "Country": "Eritrea",
+        "Sex": "Female",
+        "LifeExpectancy": 16.82
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "HTI",
+        "Country": "Haiti",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 16.77
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "KAZ",
+        "Country": "Kazakhstan",
+        "Sex": "Male",
+        "LifeExpectancy": 16.84
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MDG",
+        "Country": "Madagascar",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 16.76
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "NPL",
+        "Country": "Nepal",
+        "Sex": "Male",
+        "LifeExpectancy": 16.8
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "PAK",
+        "Country": "Pakistan",
+        "Sex": "Male",
+        "LifeExpectancy": 16.8
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "RUS",
+        "Country": "Russian Federation",
+        "Sex": "Male",
+        "LifeExpectancy": 16.8
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "YEM",
+        "Country": "Yemen",
+        "Sex": "Male",
+        "LifeExpectancy": 16.77
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GMB",
+        "Country": "Gambia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 16.85
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "TLS",
+        "Country": "Timor-Leste",
+        "Sex": "Male",
+        "LifeExpectancy": 16.92
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "VNM",
+        "Country": "Viet Nam",
+        "Sex": "Male",
+        "LifeExpectancy": 16.88
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "AGO",
+        "Country": "Angola",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 16.98
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "HTI",
+        "Country": "Haiti",
+        "Sex": "Female",
+        "LifeExpectancy": 17.01
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "MKD",
+        "Country": "The former Yugoslav Republic of Macedonia",
+        "Sex": "Male",
+        "LifeExpectancy": 16.97
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "SLE",
+        "Country": "Sierra Leone",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 16.99
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "TGO",
+        "Country": "Togo",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 17.03
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "TON",
+        "Country": "Tonga",
+        "Sex": "Male",
+        "LifeExpectancy": 17.04
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "ZWE",
+        "Country": "Zimbabwe",
+        "Sex": "Female",
+        "LifeExpectancy": 16.99
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "AZE",
+        "Country": "Azerbaijan",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 17.06
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "CIV",
+        "Country": "C\u00c3\u00b4te d\u00e2\u20ac\u2122Ivoire",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 17.08
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "CMR",
+        "Country": "Cameroon",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 17.09
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "COG",
+        "Country": "Congo",
+        "Sex": "Female",
+        "LifeExpectancy": 17.07
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "TKM",
+        "Country": "Turkmenistan",
+        "Sex": "Male",
+        "LifeExpectancy": 17.07
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "TZA",
+        "Country": "United Republic of Tanzania",
+        "Sex": "Male",
+        "LifeExpectancy": 17.06
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GAB",
+        "Country": "Gabon",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 17.17
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GHA",
+        "Country": "Ghana",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 17.25
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "GRD",
+        "Country": "Grenada",
+        "Sex": "Male",
+        "LifeExpectancy": 17.16
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GIN",
+        "Country": "Guinea",
+        "Sex": "Female",
+        "LifeExpectancy": 17.16
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "LVA",
+        "Country": "Latvia",
+        "Sex": "Male",
+        "LifeExpectancy": 17.25
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MWI",
+        "Country": "Malawi",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 17.24
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "NAM",
+        "Country": "Namibia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 17.24
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "NER",
+        "Country": "Niger",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 17.19
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "OMN",
+        "Country": "Oman",
+        "Sex": "Male",
+        "LifeExpectancy": 17.23
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "SEN",
+        "Country": "Senegal",
+        "Sex": "Male",
+        "LifeExpectancy": 17.18
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "TJK",
+        "Country": "Tajikistan",
+        "Sex": "Female",
+        "LifeExpectancy": 17.19
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "TCD",
+        "Country": "Chad",
+        "Sex": "Female",
+        "LifeExpectancy": 17.34
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MDG",
+        "Country": "Madagascar",
+        "Sex": "Female",
+        "LifeExpectancy": 17.33
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MLI",
+        "Country": "Mali",
+        "Sex": "Male",
+        "LifeExpectancy": 17.35
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "PAK",
+        "Country": "Pakistan",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 17.26
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "ZAF",
+        "Country": "South Africa",
+        "Sex": "Male",
+        "LifeExpectancy": 17.34
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "UZB",
+        "Country": "Uzbekistan",
+        "Sex": "Male",
+        "LifeExpectancy": 17.33
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "BEN",
+        "Country": "Benin",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 17.4
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "BGR",
+        "Country": "Bulgaria",
+        "Sex": "Male",
+        "LifeExpectancy": 17.41
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "COM",
+        "Country": "Comoros",
+        "Sex": "Male",
+        "LifeExpectancy": 17.44
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "ETH",
+        "Country": "Ethiopia",
+        "Sex": "Male",
+        "LifeExpectancy": 17.44
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "LBR",
+        "Country": "Liberia",
+        "Sex": "Male",
+        "LifeExpectancy": 17.43
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "MNE",
+        "Country": "Montenegro",
+        "Sex": "Male",
+        "LifeExpectancy": 17.44
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "WSM",
+        "Country": "Samoa",
+        "Sex": "Male",
+        "LifeExpectancy": 17.35
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "SLE",
+        "Country": "Sierra Leone",
+        "Sex": "Female",
+        "LifeExpectancy": 17.44
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "FJI",
+        "Country": "Fiji",
+        "Sex": "Female",
+        "LifeExpectancy": 17.49
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "HND",
+        "Country": "Honduras",
+        "Sex": "Male",
+        "LifeExpectancy": 17.54
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MLI",
+        "Country": "Mali",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 17.46
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "SYC",
+        "Country": "Seychelles",
+        "Sex": "Male",
+        "LifeExpectancy": 17.47
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "BDI",
+        "Country": "Burundi",
+        "Sex": "Female",
+        "LifeExpectancy": 17.63
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GNQ",
+        "Country": "Equatorial Guinea",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 17.64
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "IRQ",
+        "Country": "Iraq",
+        "Sex": "Male",
+        "LifeExpectancy": 17.62
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "KEN",
+        "Country": "Kenya",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 17.64
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "LAO",
+        "Country": "Lao People's Democratic Republic",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 17.65
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "LTU",
+        "Country": "Lithuania",
+        "Sex": "Male",
+        "LifeExpectancy": 17.58
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MLI",
+        "Country": "Mali",
+        "Sex": "Female",
+        "LifeExpectancy": 17.56
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "NGA",
+        "Country": "Nigeria",
+        "Sex": "Male",
+        "LifeExpectancy": 17.59
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "PNG",
+        "Country": "Papua New Guinea",
+        "Sex": "Female",
+        "LifeExpectancy": 17.59
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "KHM",
+        "Country": "Cambodia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 17.74
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "SWZ",
+        "Country": "Eswatini",
+        "Sex": "Female",
+        "LifeExpectancy": 17.71
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "HUN",
+        "Country": "Hungary",
+        "Sex": "Male",
+        "LifeExpectancy": 17.72
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "LBR",
+        "Country": "Liberia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 17.75
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "MAR",
+        "Country": "Morocco",
+        "Sex": "Male",
+        "LifeExpectancy": 17.74
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "STP",
+        "Country": "Sao Tome and Principe",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 17.73
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "UGA",
+        "Country": "Uganda",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 17.7
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "DJI",
+        "Country": "Djibouti",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 17.76
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "EGY",
+        "Country": "Egypt",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 17.83
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "KGZ",
+        "Country": "Kyrgyzstan",
+        "Sex": "Male",
+        "LifeExpectancy": 17.78
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MOZ",
+        "Country": "Mozambique",
+        "Sex": "Female",
+        "LifeExpectancy": 17.83
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "NER",
+        "Country": "Niger",
+        "Sex": "Female",
+        "LifeExpectancy": 17.79
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "OMN",
+        "Country": "Oman",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 17.8
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "PAK",
+        "Country": "Pakistan",
+        "Sex": "Female",
+        "LifeExpectancy": 17.76
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "PHL",
+        "Country": "Philippines",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 17.77
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ROU",
+        "Country": "Romania",
+        "Sex": "Male",
+        "LifeExpectancy": 17.81
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "SSD",
+        "Country": "South Sudan",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 17.79
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "SDN",
+        "Country": "Sudan",
+        "Sex": "Male",
+        "LifeExpectancy": 17.83
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "YEM",
+        "Country": "Yemen",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 17.77
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "COD",
+        "Country": "Democratic Republic of the Congo",
+        "Sex": "Female",
+        "LifeExpectancy": 17.88
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "IDN",
+        "Country": "Indonesia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 17.94
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "WSM",
+        "Country": "Samoa",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 17.86
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "SRB",
+        "Country": "Serbia",
+        "Sex": "Male",
+        "LifeExpectancy": 17.93
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "TLS",
+        "Country": "Timor-Leste",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 17.9
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "BOL",
+        "Country": "Bolivia (Plurinational State of)",
+        "Sex": "Male",
+        "LifeExpectancy": 18.04
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "BWA",
+        "Country": "Botswana",
+        "Sex": "Female",
+        "LifeExpectancy": 17.97
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GMB",
+        "Country": "Gambia",
+        "Sex": "Female",
+        "LifeExpectancy": 18.04
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "LBR",
+        "Country": "Liberia",
+        "Sex": "Female",
+        "LifeExpectancy": 18.02
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "NPL",
+        "Country": "Nepal",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 18.01
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "NIC",
+        "Country": "Nicaragua",
+        "Sex": "Male",
+        "LifeExpectancy": 18.04
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "RWA",
+        "Country": "Rwanda",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 18.02
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "ZMB",
+        "Country": "Zambia",
+        "Sex": "Female",
+        "LifeExpectancy": 18.05
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "BFA",
+        "Country": "Burkina Faso",
+        "Sex": "Female",
+        "LifeExpectancy": 18.06
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "COM",
+        "Country": "Comoros",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 18.13
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "GUY",
+        "Country": "Guyana",
+        "Sex": "Female",
+        "LifeExpectancy": 18.1
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "IND",
+        "Country": "India",
+        "Sex": "Male",
+        "LifeExpectancy": 18.11
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "MMR",
+        "Country": "Myanmar",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 18.06
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "SEN",
+        "Country": "Senegal",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 18.15
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ARM",
+        "Country": "Armenia",
+        "Sex": "Male",
+        "LifeExpectancy": 18.24
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "NGA",
+        "Country": "Nigeria",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 18.24
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "SYR",
+        "Country": "Syrian Arab Republic",
+        "Sex": "Male",
+        "LifeExpectancy": 18.22
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "TZA",
+        "Country": "United Republic of Tanzania",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 18.16
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "AZE",
+        "Country": "Azerbaijan",
+        "Sex": "Female",
+        "LifeExpectancy": 18.32
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "CMR",
+        "Country": "Cameroon",
+        "Sex": "Female",
+        "LifeExpectancy": 18.35
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "HND",
+        "Country": "Honduras",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 18.35
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "MKD",
+        "Country": "The former Yugoslav Republic of Macedonia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 18.33
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "WSM",
+        "Country": "Samoa",
+        "Sex": "Female",
+        "LifeExpectancy": 18.32
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "ETH",
+        "Country": "Ethiopia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 18.45
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "QAT",
+        "Country": "Qatar",
+        "Sex": "Female",
+        "LifeExpectancy": 18.38
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "BEN",
+        "Country": "Benin",
+        "Sex": "Female",
+        "LifeExpectancy": 18.52
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "MYS",
+        "Country": "Malaysia",
+        "Sex": "Male",
+        "LifeExpectancy": 18.49
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MUS",
+        "Country": "Mauritius",
+        "Sex": "Male",
+        "LifeExpectancy": 18.45
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "MNG",
+        "Country": "Mongolia",
+        "Sex": "Female",
+        "LifeExpectancy": 18.51
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "OMN",
+        "Country": "Oman",
+        "Sex": "Female",
+        "LifeExpectancy": 18.48
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "SUR",
+        "Country": "Suriname",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 18.46
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "AGO",
+        "Country": "Angola",
+        "Sex": "Female",
+        "LifeExpectancy": 18.55
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "BOL",
+        "Country": "Bolivia (Plurinational State of)",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 18.56
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "BIH",
+        "Country": "Bosnia and Herzegovina",
+        "Sex": "Male",
+        "LifeExpectancy": 18.59
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "STP",
+        "Country": "Sao Tome and Principe",
+        "Sex": "Female",
+        "LifeExpectancy": 18.63
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "LKA",
+        "Country": "Sri Lanka",
+        "Sex": "Male",
+        "LifeExpectancy": 18.64
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "SDN",
+        "Country": "Sudan",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 18.64
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "TGO",
+        "Country": "Togo",
+        "Sex": "Female",
+        "LifeExpectancy": 18.65
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "UZB",
+        "Country": "Uzbekistan",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 18.64
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "BHR",
+        "Country": "Bahrain",
+        "Sex": "Male",
+        "LifeExpectancy": 18.72
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "CIV",
+        "Country": "C\u00c3\u00b4te d\u00e2\u20ac\u2122Ivoire",
+        "Sex": "Female",
+        "LifeExpectancy": 18.69
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "GRD",
+        "Country": "Grenada",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 18.73
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "MAR",
+        "Country": "Morocco",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 18.67
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "SYR",
+        "Country": "Syrian Arab Republic",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 18.72
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "TKM",
+        "Country": "Turkmenistan",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 18.74
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "YEM",
+        "Country": "Yemen",
+        "Sex": "Female",
+        "LifeExpectancy": 18.71
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "ARG",
+        "Country": "Argentina",
+        "Sex": "Male",
+        "LifeExpectancy": 18.84
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "COM",
+        "Country": "Comoros",
+        "Sex": "Female",
+        "LifeExpectancy": 18.75
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GNQ",
+        "Country": "Equatorial Guinea",
+        "Sex": "Female",
+        "LifeExpectancy": 18.81
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "GEO",
+        "Country": "Georgia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 18.76
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "IND",
+        "Country": "India",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 18.82
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "LBN",
+        "Country": "Lebanon",
+        "Sex": "Male",
+        "LifeExpectancy": 18.76
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "BTN",
+        "Country": "Bhutan",
+        "Sex": "Male",
+        "LifeExpectancy": 18.89
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GHA",
+        "Country": "Ghana",
+        "Sex": "Female",
+        "LifeExpectancy": 18.89
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "LAO",
+        "Country": "Lao People's Democratic Republic",
+        "Sex": "Female",
+        "LifeExpectancy": 18.89
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MRT",
+        "Country": "Mauritania",
+        "Sex": "Female",
+        "LifeExpectancy": 18.87
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "NGA",
+        "Country": "Nigeria",
+        "Sex": "Female",
+        "LifeExpectancy": 18.86
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "SEN",
+        "Country": "Senegal",
+        "Sex": "Female",
+        "LifeExpectancy": 18.92
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "SSD",
+        "Country": "South Sudan",
+        "Sex": "Female",
+        "LifeExpectancy": 18.93
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "TLS",
+        "Country": "Timor-Leste",
+        "Sex": "Female",
+        "LifeExpectancy": 18.87
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "BHR",
+        "Country": "Bahrain",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 19.01
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "BRN",
+        "Country": "Brunei Darussalam",
+        "Sex": "Male",
+        "LifeExpectancy": 18.97
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "DJI",
+        "Country": "Djibouti",
+        "Sex": "Female",
+        "LifeExpectancy": 18.96
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "DOM",
+        "Country": "Dominican Republic",
+        "Sex": "Male",
+        "LifeExpectancy": 18.99
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MWI",
+        "Country": "Malawi",
+        "Sex": "Female",
+        "LifeExpectancy": 19.03
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MRT",
+        "Country": "Mauritania",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 18.98
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "MDA",
+        "Country": "Republic of Moldova",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 19.02
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "TON",
+        "Country": "Tonga",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 19.03
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "URY",
+        "Country": "Uruguay",
+        "Sex": "Male",
+        "LifeExpectancy": 18.98
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "BHS",
+        "Country": "Bahamas",
+        "Sex": "Male",
+        "LifeExpectancy": 19.12
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "BOL",
+        "Country": "Bolivia (Plurinational State of)",
+        "Sex": "Female",
+        "LifeExpectancy": 19.06
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "KHM",
+        "Country": "Cambodia",
+        "Sex": "Female",
+        "LifeExpectancy": 19.11
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "PRK",
+        "Country": "Democratic People's Republic of Korea",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 19.1
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "EGY",
+        "Country": "Egypt",
+        "Sex": "Female",
+        "LifeExpectancy": 19.11
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "HND",
+        "Country": "Honduras",
+        "Sex": "Female",
+        "LifeExpectancy": 19.08
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "IDN",
+        "Country": "Indonesia",
+        "Sex": "Female",
+        "LifeExpectancy": 19.13
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "KEN",
+        "Country": "Kenya",
+        "Sex": "Female",
+        "LifeExpectancy": 19.09
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MRT",
+        "Country": "Mauritania",
+        "Sex": "Male",
+        "LifeExpectancy": 19.12
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "ZAF",
+        "Country": "South Africa",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 19.12
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "TZA",
+        "Country": "United Republic of Tanzania",
+        "Sex": "Female",
+        "LifeExpectancy": 19.06
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "BRN",
+        "Country": "Brunei Darussalam",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 19.17
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "CHN",
+        "Country": "China",
+        "Sex": "Male",
+        "LifeExpectancy": 19.19
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "IRQ",
+        "Country": "Iraq",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 19.18
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "NPL",
+        "Country": "Nepal",
+        "Sex": "Female",
+        "LifeExpectancy": 19.15
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "RWA",
+        "Country": "Rwanda",
+        "Sex": "Female",
+        "LifeExpectancy": 19.16
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "LCA",
+        "Country": "Saint Lucia",
+        "Sex": "Male",
+        "LifeExpectancy": 19.16
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "ARE",
+        "Country": "United Arab Emirates",
+        "Sex": "Male",
+        "LifeExpectancy": 19.18
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "EST",
+        "Country": "Estonia",
+        "Sex": "Male",
+        "LifeExpectancy": 19.26
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "GAB",
+        "Country": "Gabon",
+        "Sex": "Female",
+        "LifeExpectancy": 19.25
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "NAM",
+        "Country": "Namibia",
+        "Sex": "Female",
+        "LifeExpectancy": 19.25
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "SAU",
+        "Country": "Saudi Arabia",
+        "Sex": "Male",
+        "LifeExpectancy": 19.25
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "SVK",
+        "Country": "Slovakia",
+        "Sex": "Male",
+        "LifeExpectancy": 19.27
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "SYR",
+        "Country": "Syrian Arab Republic",
+        "Sex": "Female",
+        "LifeExpectancy": 19.28
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "BHR",
+        "Country": "Bahrain",
+        "Sex": "Female",
+        "LifeExpectancy": 19.36
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "BTN",
+        "Country": "Bhutan",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 19.36
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "BRN",
+        "Country": "Brunei Darussalam",
+        "Sex": "Female",
+        "LifeExpectancy": 19.38
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "HRV",
+        "Country": "Croatia",
+        "Sex": "Male",
+        "LifeExpectancy": 19.44
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "ETH",
+        "Country": "Ethiopia",
+        "Sex": "Female",
+        "LifeExpectancy": 19.4
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "GTM",
+        "Country": "Guatemala",
+        "Sex": "Male",
+        "LifeExpectancy": 19.4
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "MNE",
+        "Country": "Montenegro",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 19.44
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "SDN",
+        "Country": "Sudan",
+        "Sex": "Female",
+        "LifeExpectancy": 19.41
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "UGA",
+        "Country": "Uganda",
+        "Sex": "Female",
+        "LifeExpectancy": 19.38
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "IND",
+        "Country": "India",
+        "Sex": "Female",
+        "LifeExpectancy": 19.54
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "KAZ",
+        "Country": "Kazakhstan",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 19.46
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "MYS",
+        "Country": "Malaysia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 19.5
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "POL",
+        "Country": "Poland",
+        "Sex": "Male",
+        "LifeExpectancy": 19.52
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "QAT",
+        "Country": "Qatar",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 19.5
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "SYC",
+        "Country": "Seychelles",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 19.5
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "UKR",
+        "Country": "Ukraine",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 19.49
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "MAR",
+        "Country": "Morocco",
+        "Sex": "Female",
+        "LifeExpectancy": 19.59
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "MMR",
+        "Country": "Myanmar",
+        "Sex": "Female",
+        "LifeExpectancy": 19.62
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "MKD",
+        "Country": "The former Yugoslav Republic of Macedonia",
+        "Sex": "Female",
+        "LifeExpectancy": 19.64
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "PHL",
+        "Country": "Philippines",
+        "Sex": "Female",
+        "LifeExpectancy": 19.57
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "SRB",
+        "Country": "Serbia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 19.58
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "VNM",
+        "Country": "Viet Nam",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 19.6
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "BLR",
+        "Country": "Belarus",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 19.72
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "CPV",
+        "Country": "Cabo Verde",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 19.66
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "VEN",
+        "Country": "Venezuela (Bolivarian Republic of)",
+        "Sex": "Male",
+        "LifeExpectancy": 19.67
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "ATG",
+        "Country": "Antigua and Barbuda",
+        "Sex": "Male",
+        "LifeExpectancy": 19.81
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "BGR",
+        "Country": "Bulgaria",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 19.82
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "UZB",
+        "Country": "Uzbekistan",
+        "Sex": "Female",
+        "LifeExpectancy": 19.81
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "BRB",
+        "Country": "Barbados",
+        "Sex": "Male",
+        "LifeExpectancy": 19.94
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "BTN",
+        "Country": "Bhutan",
+        "Sex": "Female",
+        "LifeExpectancy": 19.95
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "CZE",
+        "Country": "Czechia",
+        "Sex": "Male",
+        "LifeExpectancy": 19.93
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "RUS",
+        "Country": "Russian Federation",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 19.93
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "SAU",
+        "Country": "Saudi Arabia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 19.9
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "ARE",
+        "Country": "United Arab Emirates",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 19.92
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "CUB",
+        "Country": "Cuba",
+        "Sex": "Male",
+        "LifeExpectancy": 19.98
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "KGZ",
+        "Country": "Kyrgyzstan",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 20.01
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "NIC",
+        "Country": "Nicaragua",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 20.03
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "BRA",
+        "Country": "Brazil",
+        "Sex": "Male",
+        "LifeExpectancy": 20.09
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "JAM",
+        "Country": "Jamaica",
+        "Sex": "Male",
+        "LifeExpectancy": 20.07
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "TKM",
+        "Country": "Turkmenistan",
+        "Sex": "Female",
+        "LifeExpectancy": 20.11
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ALB",
+        "Country": "Albania",
+        "Sex": "Male",
+        "LifeExpectancy": 20.22
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "BIH",
+        "Country": "Bosnia and Herzegovina",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 20.16
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "HUN",
+        "Country": "Hungary",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 20.22
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "PRY",
+        "Country": "Paraguay",
+        "Sex": "Male",
+        "LifeExpectancy": 20.15
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "VCT",
+        "Country": "Saint Vincent and the Grenadines",
+        "Sex": "Male",
+        "LifeExpectancy": 20.16
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "TUN",
+        "Country": "Tunisia",
+        "Sex": "Male",
+        "LifeExpectancy": 20.16
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "BGD",
+        "Country": "Bangladesh",
+        "Sex": "Male",
+        "LifeExpectancy": 20.26
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "BLZ",
+        "Country": "Belize",
+        "Sex": "Male",
+        "LifeExpectancy": 20.32
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "GRD",
+        "Country": "Grenada",
+        "Sex": "Female",
+        "LifeExpectancy": 20.34
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MUS",
+        "Country": "Mauritius",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 20.29
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ROU",
+        "Country": "Romania",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 20.25
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ARM",
+        "Country": "Armenia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 20.41
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "SLV",
+        "Country": "El Salvador",
+        "Sex": "Male",
+        "LifeExpectancy": 20.42
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "TTO",
+        "Country": "Trinidad and Tobago",
+        "Sex": "Male",
+        "LifeExpectancy": 20.41
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "GTM",
+        "Country": "Guatemala",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 20.47
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "LVA",
+        "Country": "Latvia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 20.53
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "LBN",
+        "Country": "Lebanon",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 20.53
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "LBY",
+        "Country": "Libya",
+        "Sex": "Male",
+        "LifeExpectancy": 20.55
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "MEX",
+        "Country": "Mexico",
+        "Sex": "Male",
+        "LifeExpectancy": 20.5
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "ZAF",
+        "Country": "South Africa",
+        "Sex": "Female",
+        "LifeExpectancy": 20.52
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "SUR",
+        "Country": "Suriname",
+        "Sex": "Female",
+        "LifeExpectancy": 20.45
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "ATG",
+        "Country": "Antigua and Barbuda",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 20.59
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "DOM",
+        "Country": "Dominican Republic",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 20.65
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "MYS",
+        "Country": "Malaysia",
+        "Sex": "Female",
+        "LifeExpectancy": 20.56
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "QAT",
+        "Country": "Qatar",
+        "Sex": "Male",
+        "LifeExpectancy": 20.64
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "TUR",
+        "Country": "T\u00c3\u00bcrkiye",
+        "Sex": "Male",
+        "LifeExpectancy": 20.61
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "IRQ",
+        "Country": "Iraq",
+        "Sex": "Female",
+        "LifeExpectancy": 20.66
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "BHS",
+        "Country": "Bahamas",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 20.84
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "PRK",
+        "Country": "Democratic People's Republic of Korea",
+        "Sex": "Female",
+        "LifeExpectancy": 20.77
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "SAU",
+        "Country": "Saudi Arabia",
+        "Sex": "Female",
+        "LifeExpectancy": 20.77
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "LKA",
+        "Country": "Sri Lanka",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 20.76
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "BGD",
+        "Country": "Bangladesh",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 20.86
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "BRB",
+        "Country": "Barbados",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 20.92
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "LTU",
+        "Country": "Lithuania",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 20.93
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "MDA",
+        "Country": "Republic of Moldova",
+        "Sex": "Female",
+        "LifeExpectancy": 20.92
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "LCA",
+        "Country": "Saint Lucia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 20.91
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "VCT",
+        "Country": "Saint Vincent and the Grenadines",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 20.87
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ALB",
+        "Country": "Albania",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 21.03
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "GEO",
+        "Country": "Georgia",
+        "Sex": "Female",
+        "LifeExpectancy": 21.02
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "ARG",
+        "Country": "Argentina",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 21.11
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "CHN",
+        "Country": "China",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 21.06
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "SRB",
+        "Country": "Serbia",
+        "Sex": "Female",
+        "LifeExpectancy": 21.1
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "IRN",
+        "Country": "Iran (Islamic Republic of)",
+        "Sex": "Male",
+        "LifeExpectancy": 21.18
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "TON",
+        "Country": "Tonga",
+        "Sex": "Female",
+        "LifeExpectancy": 21.16
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "ATG",
+        "Country": "Antigua and Barbuda",
+        "Sex": "Female",
+        "LifeExpectancy": 21.31
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "JAM",
+        "Country": "Jamaica",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 21.32
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "LBY",
+        "Country": "Libya",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 21.26
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "MNE",
+        "Country": "Montenegro",
+        "Sex": "Female",
+        "LifeExpectancy": 21.32
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "GTM",
+        "Country": "Guatemala",
+        "Sex": "Female",
+        "LifeExpectancy": 21.43
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "KAZ",
+        "Country": "Kazakhstan",
+        "Sex": "Female",
+        "LifeExpectancy": 21.44
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "MDV",
+        "Country": "Maldives",
+        "Sex": "Male",
+        "LifeExpectancy": 21.39
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "DZA",
+        "Country": "Algeria",
+        "Sex": "Male",
+        "LifeExpectancy": 21.53
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "BGD",
+        "Country": "Bangladesh",
+        "Sex": "Female",
+        "LifeExpectancy": 21.53
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "BLZ",
+        "Country": "Belize",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 21.53
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "SYC",
+        "Country": "Seychelles",
+        "Sex": "Female",
+        "LifeExpectancy": 21.51
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "TUN",
+        "Country": "Tunisia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 21.54
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "BIH",
+        "Country": "Bosnia and Herzegovina",
+        "Sex": "Female",
+        "LifeExpectancy": 21.56
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "CUB",
+        "Country": "Cuba",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 21.59
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "JOR",
+        "Country": "Jordan",
+        "Sex": "Male",
+        "LifeExpectancy": 21.56
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "VCT",
+        "Country": "Saint Vincent and the Grenadines",
+        "Sex": "Female",
+        "LifeExpectancy": 21.63
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "KGZ",
+        "Country": "Kyrgyzstan",
+        "Sex": "Female",
+        "LifeExpectancy": 21.67
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "UKR",
+        "Country": "Ukraine",
+        "Sex": "Female",
+        "LifeExpectancy": 21.73
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "ARE",
+        "Country": "United Arab Emirates",
+        "Sex": "Female",
+        "LifeExpectancy": 21.69
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "URY",
+        "Country": "Uruguay",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 21.67
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "VEN",
+        "Country": "Venezuela (Bolivarian Republic of)",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 21.69
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "BRB",
+        "Country": "Barbados",
+        "Sex": "Female",
+        "LifeExpectancy": 21.79
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "CPV",
+        "Country": "Cabo Verde",
+        "Sex": "Female",
+        "LifeExpectancy": 21.77
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "HRV",
+        "Country": "Croatia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 21.76
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "IRN",
+        "Country": "Iran (Islamic Republic of)",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 21.82
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "JOR",
+        "Country": "Jordan",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 21.81
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "MEX",
+        "Country": "Mexico",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 21.84
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "PRY",
+        "Country": "Paraguay",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 21.78
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "SVK",
+        "Country": "Slovakia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 21.81
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "SVN",
+        "Country": "Slovenia",
+        "Sex": "Male",
+        "LifeExpectancy": 21.84
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "USA",
+        "Country": "United States of America",
+        "Sex": "Male",
+        "LifeExpectancy": 21.78
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ALB",
+        "Country": "Albania",
+        "Sex": "Female",
+        "LifeExpectancy": 21.94
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "BRA",
+        "Country": "Brazil",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 21.9
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "DEU",
+        "Country": "Germany",
+        "Sex": "Male",
+        "LifeExpectancy": 21.87
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "LBY",
+        "Country": "Libya",
+        "Sex": "Female",
+        "LifeExpectancy": 21.89
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "NIC",
+        "Country": "Nicaragua",
+        "Sex": "Female",
+        "LifeExpectancy": 21.87
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "DZA",
+        "Country": "Algeria",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 22.04
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "BGR",
+        "Country": "Bulgaria",
+        "Sex": "Female",
+        "LifeExpectancy": 21.97
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "ECU",
+        "Country": "Ecuador",
+        "Sex": "Male",
+        "LifeExpectancy": 22.04
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "MUS",
+        "Country": "Mauritius",
+        "Sex": "Female",
+        "LifeExpectancy": 21.97
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "TUR",
+        "Country": "T\u00c3\u00bcrkiye",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 22.03
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "VNM",
+        "Country": "Viet Nam",
+        "Sex": "Female",
+        "LifeExpectancy": 22.03
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ARM",
+        "Country": "Armenia",
+        "Sex": "Female",
+        "LifeExpectancy": 22.15
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "CZE",
+        "Country": "Czechia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 22.07
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "SLV",
+        "Country": "El Salvador",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 22.12
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "GRC",
+        "Country": "Greece",
+        "Sex": "Male",
+        "LifeExpectancy": 22.07
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "JOR",
+        "Country": "Jordan",
+        "Sex": "Female",
+        "LifeExpectancy": 22.07
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "MDV",
+        "Country": "Maldives",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 22.15
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "POL",
+        "Country": "Poland",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 22.13
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "PRT",
+        "Country": "Portugal",
+        "Sex": "Male",
+        "LifeExpectancy": 22.12
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "THA",
+        "Country": "Thailand",
+        "Sex": "Male",
+        "LifeExpectancy": 22.12
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "RUS",
+        "Country": "Russian Federation",
+        "Sex": "Female",
+        "LifeExpectancy": 22.19
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "BEL",
+        "Country": "Belgium",
+        "Sex": "Male",
+        "LifeExpectancy": 22.33
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "DNK",
+        "Country": "Denmark",
+        "Sex": "Male",
+        "LifeExpectancy": 22.26
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "HUN",
+        "Country": "Hungary",
+        "Sex": "Female",
+        "LifeExpectancy": 22.27
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "AUT",
+        "Country": "Austria",
+        "Sex": "Male",
+        "LifeExpectancy": 22.43
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "BHS",
+        "Country": "Bahamas",
+        "Sex": "Female",
+        "LifeExpectancy": 22.39
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "CHL",
+        "Country": "Chile",
+        "Sex": "Male",
+        "LifeExpectancy": 22.41
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "DOM",
+        "Country": "Dominican Republic",
+        "Sex": "Female",
+        "LifeExpectancy": 22.36
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "FIN",
+        "Country": "Finland",
+        "Sex": "Male",
+        "LifeExpectancy": 22.36
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "LBN",
+        "Country": "Lebanon",
+        "Sex": "Female",
+        "LifeExpectancy": 22.4
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ROU",
+        "Country": "Romania",
+        "Sex": "Female",
+        "LifeExpectancy": 22.39
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "BLR",
+        "Country": "Belarus",
+        "Sex": "Female",
+        "LifeExpectancy": 22.48
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "COL",
+        "Country": "Colombia",
+        "Sex": "Male",
+        "LifeExpectancy": 22.48
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "EST",
+        "Country": "Estonia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 22.53
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "IRN",
+        "Country": "Iran (Islamic Republic of)",
+        "Sex": "Female",
+        "LifeExpectancy": 22.48
+    },
+    {
+        "Region": "Africa",
+        "CountryValueCode": "DZA",
+        "Country": "Algeria",
+        "Sex": "Female",
+        "LifeExpectancy": 22.62
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "JAM",
+        "Country": "Jamaica",
+        "Sex": "Female",
+        "LifeExpectancy": 22.63
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "PAN",
+        "Country": "Panama",
+        "Sex": "Male",
+        "LifeExpectancy": 22.55
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "LKA",
+        "Country": "Sri Lanka",
+        "Sex": "Female",
+        "LifeExpectancy": 22.63
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "TTO",
+        "Country": "Trinidad and Tobago",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 22.72
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "KWT",
+        "Country": "Kuwait",
+        "Sex": "Male",
+        "LifeExpectancy": 22.82
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "TUN",
+        "Country": "Tunisia",
+        "Sex": "Female",
+        "LifeExpectancy": 22.82
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "BLZ",
+        "Country": "Belize",
+        "Sex": "Female",
+        "LifeExpectancy": 22.93
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "LUX",
+        "Country": "Luxembourg",
+        "Sex": "Male",
+        "LifeExpectancy": 22.91
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "LCA",
+        "Country": "Saint Lucia",
+        "Sex": "Female",
+        "LifeExpectancy": 22.91
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "IRL",
+        "Country": "Ireland",
+        "Sex": "Male",
+        "LifeExpectancy": 23.01
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "LVA",
+        "Country": "Latvia",
+        "Sex": "Female",
+        "LifeExpectancy": 22.95
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "MLT",
+        "Country": "Malta",
+        "Sex": "Male",
+        "LifeExpectancy": 22.99
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "NLD",
+        "Country": "Netherlands",
+        "Sex": "Male",
+        "LifeExpectancy": 22.96
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "GBR",
+        "Country": "United Kingdom of Great Britain and Northern Ireland",
+        "Sex": "Male",
+        "LifeExpectancy": 22.96
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "ARG",
+        "Country": "Argentina",
+        "Sex": "Female",
+        "LifeExpectancy": 23.08
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "CHN",
+        "Country": "China",
+        "Sex": "Female",
+        "LifeExpectancy": 23.08
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "MDV",
+        "Country": "Maldives",
+        "Sex": "Female",
+        "LifeExpectancy": 23.05
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "MEX",
+        "Country": "Mexico",
+        "Sex": "Female",
+        "LifeExpectancy": 23.06
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "USA",
+        "Country": "United States of America",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 23.13
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "CUB",
+        "Country": "Cuba",
+        "Sex": "Female",
+        "LifeExpectancy": 23.18
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "ECU",
+        "Country": "Ecuador",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 23.2
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "TUR",
+        "Country": "T\u00c3\u00bcrkiye",
+        "Sex": "Female",
+        "LifeExpectancy": 23.24
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "CYP",
+        "Country": "Cyprus",
+        "Sex": "Male",
+        "LifeExpectancy": 23.31
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "FRA",
+        "Country": "France",
+        "Sex": "Male",
+        "LifeExpectancy": 23.27
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ESP",
+        "Country": "Spain",
+        "Sex": "Male",
+        "LifeExpectancy": 23.28
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "SWE",
+        "Country": "Sweden",
+        "Sex": "Male",
+        "LifeExpectancy": 23.34
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ITA",
+        "Country": "Italy",
+        "Sex": "Male",
+        "LifeExpectancy": 23.36
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "KOR",
+        "Country": "Republic of Korea",
+        "Sex": "Male",
+        "LifeExpectancy": 23.37
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "BRA",
+        "Country": "Brazil",
+        "Sex": "Female",
+        "LifeExpectancy": 23.51
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "LTU",
+        "Country": "Lithuania",
+        "Sex": "Female",
+        "LifeExpectancy": 23.46
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "NOR",
+        "Country": "Norway",
+        "Sex": "Male",
+        "LifeExpectancy": 23.47
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "PRY",
+        "Country": "Paraguay",
+        "Sex": "Female",
+        "LifeExpectancy": 23.5
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "CRI",
+        "Country": "Costa Rica",
+        "Sex": "Male",
+        "LifeExpectancy": 23.58
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "DNK",
+        "Country": "Denmark",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 23.59
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "SLV",
+        "Country": "El Salvador",
+        "Sex": "Female",
+        "LifeExpectancy": 23.57
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ISR",
+        "Country": "Israel",
+        "Sex": "Male",
+        "LifeExpectancy": 23.62
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "THA",
+        "Country": "Thailand",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 23.57
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "VEN",
+        "Country": "Venezuela (Bolivarian Republic of)",
+        "Sex": "Female",
+        "LifeExpectancy": 23.6
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "HRV",
+        "Country": "Croatia",
+        "Sex": "Female",
+        "LifeExpectancy": 23.75
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ISL",
+        "Country": "Iceland",
+        "Sex": "Male",
+        "LifeExpectancy": 23.71
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "PER",
+        "Country": "Peru",
+        "Sex": "Male",
+        "LifeExpectancy": 23.66
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "CAN",
+        "Country": "Canada",
+        "Sex": "Male",
+        "LifeExpectancy": 23.84
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "GRC",
+        "Country": "Greece",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 23.84
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "NZL",
+        "Country": "New Zealand",
+        "Sex": "Male",
+        "LifeExpectancy": 23.75
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "SGP",
+        "Country": "Singapore",
+        "Sex": "Male",
+        "LifeExpectancy": 23.78
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "SVN",
+        "Country": "Slovenia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 23.82
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "JPN",
+        "Country": "Japan",
+        "Sex": "Male",
+        "LifeExpectancy": 23.95
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "SVK",
+        "Country": "Slovakia",
+        "Sex": "Female",
+        "LifeExpectancy": 23.93
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "BEL",
+        "Country": "Belgium",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 24.02
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "COL",
+        "Country": "Colombia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 23.96
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "CZE",
+        "Country": "Czechia",
+        "Sex": "Female",
+        "LifeExpectancy": 24
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "KWT",
+        "Country": "Kuwait",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 23.96
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "URY",
+        "Country": "Uruguay",
+        "Sex": "Female",
+        "LifeExpectancy": 23.96
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "AUT",
+        "Country": "Austria",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 24.09
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "NLD",
+        "Country": "Netherlands",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 24.08
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "CHE",
+        "Country": "Switzerland",
+        "Sex": "Male",
+        "LifeExpectancy": 24.09
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "GBR",
+        "Country": "United Kingdom of Great Britain and Northern Ireland",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 24.13
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "FIN",
+        "Country": "Finland",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 24.16
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "IRL",
+        "Country": "Ireland",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 24.19
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "CHL",
+        "Country": "Chile",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 24.27
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "ECU",
+        "Country": "Ecuador",
+        "Sex": "Female",
+        "LifeExpectancy": 24.31
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "PAN",
+        "Country": "Panama",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 24.26
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "POL",
+        "Country": "Poland",
+        "Sex": "Female",
+        "LifeExpectancy": 24.33
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "PRT",
+        "Country": "Portugal",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 24.34
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "AUS",
+        "Country": "Australia",
+        "Sex": "Male",
+        "LifeExpectancy": 24.37
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "DEU",
+        "Country": "Germany",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 24.41
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "LUX",
+        "Country": "Luxembourg",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 24.4
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "PER",
+        "Country": "Peru",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 24.38
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "USA",
+        "Country": "United States of America",
+        "Sex": "Female",
+        "LifeExpectancy": 24.38
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "MLT",
+        "Country": "Malta",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 24.49
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "SWE",
+        "Country": "Sweden",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 24.5
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ISL",
+        "Country": "Iceland",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 24.64
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "NOR",
+        "Country": "Norway",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 24.66
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "NZL",
+        "Country": "New Zealand",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 24.83
+    },
+    {
+        "Region": "South-East Asia",
+        "CountryValueCode": "THA",
+        "Country": "Thailand",
+        "Sex": "Female",
+        "LifeExpectancy": 24.84
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "CYP",
+        "Country": "Cyprus",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 24.92
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "DNK",
+        "Country": "Denmark",
+        "Sex": "Female",
+        "LifeExpectancy": 24.85
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ISR",
+        "Country": "Israel",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 24.9
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "CRI",
+        "Country": "Costa Rica",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 25.03
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "EST",
+        "Country": "Estonia",
+        "Sex": "Female",
+        "LifeExpectancy": 24.99
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ITA",
+        "Country": "Italy",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 25.04
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "TTO",
+        "Country": "Trinidad and Tobago",
+        "Sex": "Female",
+        "LifeExpectancy": 25.01
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "NLD",
+        "Country": "Netherlands",
+        "Sex": "Female",
+        "LifeExpectancy": 25.13
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "PER",
+        "Country": "Peru",
+        "Sex": "Female",
+        "LifeExpectancy": 25.05
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "CAN",
+        "Country": "Canada",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 25.15
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "GBR",
+        "Country": "United Kingdom of Great Britain and Northern Ireland",
+        "Sex": "Female",
+        "LifeExpectancy": 25.23
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "COL",
+        "Country": "Colombia",
+        "Sex": "Female",
+        "LifeExpectancy": 25.27
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "FRA",
+        "Country": "France",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 25.34
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "IRL",
+        "Country": "Ireland",
+        "Sex": "Female",
+        "LifeExpectancy": 25.33
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ESP",
+        "Country": "Spain",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 25.39
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "CHE",
+        "Country": "Switzerland",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 25.43
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "GRC",
+        "Country": "Greece",
+        "Sex": "Female",
+        "LifeExpectancy": 25.52
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ISL",
+        "Country": "Iceland",
+        "Sex": "Female",
+        "LifeExpectancy": 25.54
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "SGP",
+        "Country": "Singapore",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 25.54
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "AUS",
+        "Country": "Australia",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 25.62
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "AUT",
+        "Country": "Austria",
+        "Sex": "Female",
+        "LifeExpectancy": 25.6
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "BEL",
+        "Country": "Belgium",
+        "Sex": "Female",
+        "LifeExpectancy": 25.58
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "SVN",
+        "Country": "Slovenia",
+        "Sex": "Female",
+        "LifeExpectancy": 25.64
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "SWE",
+        "Country": "Sweden",
+        "Sex": "Female",
+        "LifeExpectancy": 25.59
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "FIN",
+        "Country": "Finland",
+        "Sex": "Female",
+        "LifeExpectancy": 25.81
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "LUX",
+        "Country": "Luxembourg",
+        "Sex": "Female",
+        "LifeExpectancy": 25.81
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "NZL",
+        "Country": "New Zealand",
+        "Sex": "Female",
+        "LifeExpectancy": 25.84
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "NOR",
+        "Country": "Norway",
+        "Sex": "Female",
+        "LifeExpectancy": 25.76
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "KOR",
+        "Country": "Republic of Korea",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 25.8
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "CHL",
+        "Country": "Chile",
+        "Sex": "Female",
+        "LifeExpectancy": 25.88
+    },
+    {
+        "Region": "Eastern Mediterranean",
+        "CountryValueCode": "KWT",
+        "Country": "Kuwait",
+        "Sex": "Female",
+        "LifeExpectancy": 25.9
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "MLT",
+        "Country": "Malta",
+        "Sex": "Female",
+        "LifeExpectancy": 25.86
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ISR",
+        "Country": "Israel",
+        "Sex": "Female",
+        "LifeExpectancy": 26.03
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "PAN",
+        "Country": "Panama",
+        "Sex": "Female",
+        "LifeExpectancy": 25.95
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "JPN",
+        "Country": "Japan",
+        "Sex": "Both sexes",
+        "LifeExpectancy": 26.35
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "PRT",
+        "Country": "Portugal",
+        "Sex": "Female",
+        "LifeExpectancy": 26.29
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "CAN",
+        "Country": "Canada",
+        "Sex": "Female",
+        "LifeExpectancy": 26.38
+    },
+    {
+        "Region": "Americas",
+        "CountryValueCode": "CRI",
+        "Country": "Costa Rica",
+        "Sex": "Female",
+        "LifeExpectancy": 26.4
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "CYP",
+        "Country": "Cyprus",
+        "Sex": "Female",
+        "LifeExpectancy": 26.43
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ITA",
+        "Country": "Italy",
+        "Sex": "Female",
+        "LifeExpectancy": 26.53
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "CHE",
+        "Country": "Switzerland",
+        "Sex": "Female",
+        "LifeExpectancy": 26.65
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "AUS",
+        "Country": "Australia",
+        "Sex": "Female",
+        "LifeExpectancy": 26.83
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "DEU",
+        "Country": "Germany",
+        "Sex": "Female",
+        "LifeExpectancy": 26.87
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "FRA",
+        "Country": "France",
+        "Sex": "Female",
+        "LifeExpectancy": 27.21
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "SGP",
+        "Country": "Singapore",
+        "Sex": "Female",
+        "LifeExpectancy": 27.22
+    },
+    {
+        "Region": "Europe",
+        "CountryValueCode": "ESP",
+        "Country": "Spain",
+        "Sex": "Female",
+        "LifeExpectancy": 27.34
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "KOR",
+        "Country": "Republic of Korea",
+        "Sex": "Female",
+        "LifeExpectancy": 27.87
+    },
+    {
+        "Region": "Western Pacific",
+        "CountryValueCode": "JPN",
+        "Country": "Japan",
+        "Sex": "Female",
+        "LifeExpectancy": 28.56
+    }
+]

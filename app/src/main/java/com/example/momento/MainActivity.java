@@ -9,17 +9,24 @@ import android.os.Bundle;
 import android.text.Editable;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.momento.authentication.LoginActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -28,8 +35,10 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -42,6 +51,7 @@ import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
 
+    // set components
     private Button btnAge;
     private TextView tvResults;
     private EditText etdDOB;
@@ -50,6 +60,10 @@ public class MainActivity extends AppCompatActivity {
 
     private FirebaseAuth fAuth;
     private FirebaseFirestore db;
+
+    // declare variable
+    private String selectedCountry;
+    private String selectedGender;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,8 +86,37 @@ public class MainActivity extends AppCompatActivity {
         List<String> countyNames = readCountries();
         //setup spinner
         setCountriesSpinner(countyNames);
-        String[] genders = {"male", "female", "prefer not to say"};
+        String[] genders = {"Male", "Female", "prefer not to say"};
         setGenderSpinner(genders);
+
+        spinGender.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                selectedGender = adapterView.getItemAtPosition(i).toString();
+                if(selectedGender.equals("prefer not to say")){
+                    selectedGender = "Both sexes";
+                }
+                Log.d("Test123", "selected gender: "+ selectedGender );
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+
+        spinCountries.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                selectedCountry = adapterView.getItemAtPosition(i).toString();
+                Log.d("Test123", "selected country: "+ selectedCountry );
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
 
 
         etdDOB.setOnClickListener(new View.OnClickListener() {
@@ -84,6 +127,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         btnAge.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view) {
 
@@ -108,7 +152,7 @@ public class MainActivity extends AppCompatActivity {
                         long timeDiff = currDate.getTime() - dob.getTime();
                         long daysDiff = timeDiff / (24 * 60 * 60 * 1000); //24h 60m 60s 1000ms = ms in a day
 
-                        int lifeExpectancyInDays = 26645- (int) daysDiff;
+                        int lifeExpectancyInDays = getLifeExpectancy(selectedCountry,selectedGender) - (int) daysDiff;
 
 
                         //add to database
@@ -131,10 +175,58 @@ public class MainActivity extends AppCompatActivity {
                 }
 
             }
+
         });
 
     }
 
+    private int getLifeExpectancy(String selectedCountry, String selectedGender) {
+        try {
+            // Read the JSON file
+            InputStream inputStream = getResources().openRawResource(R.raw.life_expectancy_data_who);
+            InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
+            BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+
+            StringBuilder stringBuilder = new StringBuilder();
+            String line;
+            while ((line = bufferedReader.readLine()) != null) {
+                stringBuilder.append(line);
+            }
+
+            String json = stringBuilder.toString();
+
+            // Parse the JSON data
+            JSONArray dataArray = new JSONArray(json);
+
+            // Iterate through the data array
+            for (int i = 0; i < dataArray.length(); i++) {
+                JSONObject entry = dataArray.getJSONObject(i);
+
+                String country = entry.getString("Country");
+                String gender = entry.getString("Sex");
+
+                if (country.equals(selectedCountry) && gender.equals(selectedGender)) {
+                    // Retrieve life expectancy value
+                    double lifeExpectancy = entry.getDouble("LifeExpectancy");
+                    // get days from years
+                    int fullYears = (int) lifeExpectancy;
+                    double fractionalPart = lifeExpectancy - fullYears;
+
+                    int daysInFullYear = fullYears * 365;
+                    int daysInFractionalPart = (int) (fractionalPart * 365);
+                    Log.d("Test123", "Years: " + fullYears + fractionalPart);
+
+                    return daysInFullYear + daysInFractionalPart;
+                }
+            }
+        } catch (IOException | JSONException e) {
+            e.printStackTrace();
+            Log.d("Test123", "Error reading JSON file or parsing data");
+        }
+
+        Log.d("Test123", "No matching entry found for country: " + selectedCountry + " and gender: " + selectedGender);
+        return 0;
+    }
     private void setGenderSpinner(String[] genderArray) {
 
         List<String> gendersList = new ArrayList<>(Arrays.asList(genderArray));
@@ -144,7 +236,6 @@ public class MainActivity extends AppCompatActivity {
         adapter.insert("gender", 0);
         spinGender.setAdapter(adapter);
     }
-
     private void setCountriesSpinner(List<String> countyNames) {
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, countyNames);
@@ -155,7 +246,6 @@ public class MainActivity extends AppCompatActivity {
         spinCountries.setAdapter(adapter);
 
     }
-
     private List<String> readCountries() {
 
         List<String> countryNames = new ArrayList<>();
@@ -176,8 +266,6 @@ public class MainActivity extends AppCompatActivity {
         return countryNames;
 
     }
-
-
     private void setdays() {
 
         DocumentReference documentReference = db.collection("Users").document(fAuth.getCurrentUser().getUid());
@@ -199,8 +287,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
-
     private void showDatePickerDialog() {
         final Calendar calander = Calendar.getInstance();
         int year = calander.get(calander.YEAR);
@@ -218,7 +304,6 @@ public class MainActivity extends AppCompatActivity {
                 year,month,day);
         datePickerDialog.show();
     }
-
     public void logout(View view) {
         // logout logic
         FirebaseAuth.getInstance().signOut();
