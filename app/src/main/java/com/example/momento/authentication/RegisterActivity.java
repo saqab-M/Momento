@@ -18,11 +18,9 @@ import android.widget.Toast;
 import com.example.momento.MainActivity;
 import com.example.momento.R;
 import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.firestore.DocumentChange;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 
@@ -60,7 +58,7 @@ public class RegisterActivity extends AppCompatActivity {
 
         // returning user
         if (fAuth.getCurrentUser()!= null){
-            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+            startActivity(new Intent(getApplicationContext(), UserInitActivity.class));
             finish();
         }
 
