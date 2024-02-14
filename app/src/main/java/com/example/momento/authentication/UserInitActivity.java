@@ -2,10 +2,14 @@ package com.example.momento.authentication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.DatePickerDialog;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Spinner;
 
@@ -19,6 +23,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Calendar;
 import java.util.List;
 
 public class UserInitActivity extends AppCompatActivity {
@@ -29,29 +34,86 @@ public class UserInitActivity extends AppCompatActivity {
     private Spinner spinCountry;
     private Button btnNext;
 
+
+    // set Variables
+    private String selectedGender;
+    private String selectedCountry;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_init);
 
         //init components
-        etDOB = findViewById(R.id.etd_DOB);
+        etDOB = findViewById(R.id.et_DOB);
         spinGender = findViewById(R.id.spin_Gender);
         spinCountry = findViewById(R.id.spin_Countries);
         btnNext = findViewById(R.id.btn_Next);
 
-
-        //etDOB.setFocusable(false); crash
-
-        //read jason
-
+        //get data
         List<String> countryNames = readCountries();
         String[] genders = {"Male", "Female", "prefer not to say"};
-
         //set spinner
-
         setCountriesSpinner(countryNames);
         setGenderSpinner(genders);
+
+        etDOB.setFocusable(false);
+        etDOB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                showDatePickerDialog();
+            }
+        });
+
+
+        // ### item selection ###
+        spinGender.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                String selection = adapterView.getItemAtPosition(i).toString();
+                if(!selection.equals("Gender")){
+                    if(selection.equals("prefer not to say")){
+                        selection = "Both sexes";
+                    }
+                    selectedGender = selection;
+                }
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+                // nothing
+            }
+
+        });
+        spinCountry.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                String selection = adapterView.getItemAtPosition(i).toString();
+                if(!selection.equals("Select your country")){
+                    selectedCountry = selection;
+                }
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+
+        // ### ---------- ###
+
+        btnNext.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(selectedGender.isEmpty()){
+                    // set error on spinner
+                    //
+                    //
+                    // ......
+                }
+
+            }
+        });
 
     }
 
@@ -74,7 +136,7 @@ public class UserInitActivity extends AppCompatActivity {
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, gendersList);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        adapter.insert("gender", 0);
+        adapter.insert("Gender", 0);
         spinGender.setAdapter(adapter);
     }
 
@@ -99,6 +161,24 @@ public class UserInitActivity extends AppCompatActivity {
         }
 
         return countryNames;
+    }
+
+    private void showDatePickerDialog() {
+        final Calendar calander = Calendar.getInstance();
+        int year = calander.get(calander.YEAR);
+        int month = calander.get(calander.MONTH);
+        int day = calander.get(calander.DAY_OF_MONTH);
+
+        DatePickerDialog datePickerDialog = new DatePickerDialog(
+                this,
+                new DatePickerDialog.OnDateSetListener() {
+                    @Override
+                    public void onDateSet(DatePicker datePicker, int y, int m, int d) {
+                        etDOB.setText(String.format("%02d/%02d/%d",d, m+1, y ));
+                    }
+                },
+                year,month,day);
+        datePickerDialog.show();
     }
 
 }
