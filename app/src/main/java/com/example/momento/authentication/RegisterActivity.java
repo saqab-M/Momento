@@ -58,7 +58,7 @@ public class RegisterActivity extends AppCompatActivity {
 
         // returning user
         if (fAuth.getCurrentUser()!= null){
-            startActivity(new Intent(getApplicationContext(), UserInitActivity.class));
+            startActivity(new Intent(getApplicationContext(), MainActivity.class));
             finish();
         }
 
@@ -90,6 +90,7 @@ public class RegisterActivity extends AppCompatActivity {
                             Map<String,Object> user = new HashMap<>();
                             user.put("name" , name);
                             user.put("email", email);
+                            user.put("init", false);
 
                             //push to cloud
                             documentReference.set(user);

@@ -18,6 +18,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.example.momento.authentication.LoginActivity;
+import com.example.momento.authentication.UserInitActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
@@ -72,6 +73,9 @@ public class MainActivity extends AppCompatActivity {
 
         db = FirebaseFirestore.getInstance();
         fAuth = FirebaseAuth.getInstance();
+
+        //check is user is initialized
+        userInitCheck();
 
         etdDOB.setFocusable(false);
         setdays();
@@ -173,6 +177,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
+
 
     private int getLifeExpectancy(String selectedCountry, String selectedGender) {
         try {
@@ -279,6 +285,24 @@ public class MainActivity extends AppCompatActivity {
 
                 }
             }
+        });
+    }
+
+    private void userInitCheck() {
+        DocumentReference docRef = db.collection("Users").document(fAuth.getCurrentUser().getUid());
+
+        docRef.get().addOnCompleteListener(task -> {
+            if(task.isSuccessful()){
+
+                DocumentSnapshot doc = task.getResult();
+                if(doc.contains("init") && doc.getBoolean("init")){
+                    return;
+                }else{
+                    startActivity(new Intent(getApplicationContext(), UserInitActivity.class));
+                    finish();
+                }
+            }
+
         });
     }
     private void showDatePickerDialog() {
