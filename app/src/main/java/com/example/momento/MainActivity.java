@@ -2,6 +2,7 @@ package com.example.momento;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.app.DatePickerDialog;
 import android.content.Intent;
@@ -14,6 +15,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -46,84 +48,30 @@ import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
 
-    // set components
-    private Button btnAge;
+    // init components
+
     private TextView tvResults;
-    private EditText etdDOB;
-    private Spinner spinCountries;
-    private Spinner spinGender;
 
     private FirebaseAuth fAuth;
     private FirebaseFirestore db;
 
-    // declare variable
-    private String selectedCountry;
-    private String selectedGender;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btnAge = findViewById(R.id.btn_Age);
         tvResults = findViewById(R.id.tv_Result);
-        etdDOB = findViewById(R.id.etd_DOB);
-        spinCountries = findViewById(R.id.spin_Countries);
-        spinGender = findViewById(R.id.spin_Gender);
 
         db = FirebaseFirestore.getInstance();
         fAuth = FirebaseAuth.getInstance();
 
         //check is user is initialized
         userInitCheck();
-
-        etdDOB.setFocusable(false);
         setdays();
 
-        //read jason
-        List<String> countyNames = readCountries();
-        //setup spinner
-        setCountriesSpinner(countyNames);
-        String[] genders = {"Male", "Female", "prefer not to say"};
-        setGenderSpinner(genders);
 
-        spinGender.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-                selectedGender = adapterView.getItemAtPosition(i).toString();
-                if(selectedGender.equals("prefer not to say")){
-                    selectedGender = "Both sexes";
-                }
-                Log.d("Test123", "selected gender: "+ selectedGender );
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> adapterView) {
-
-            }
-        });
-
-        spinCountries.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-                selectedCountry = adapterView.getItemAtPosition(i).toString();
-                Log.d("Test123", "selected country: "+ selectedCountry );
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> adapterView) {
-
-            }
-        });
-
-
-        etdDOB.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                showDatePickerDialog();
-            }
-        });
-
+        /*
         btnAge.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -176,6 +124,8 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
+         */
+
     }
 
 
@@ -227,63 +177,22 @@ public class MainActivity extends AppCompatActivity {
         Log.d("Test123", "No matching entry found for country: " + selectedCountry + " and gender: " + selectedGender);
         return 0;
     }
-    private void setGenderSpinner(String[] genderArray) {
 
-        List<String> gendersList = new ArrayList<>(Arrays.asList(genderArray));
-
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, gendersList);
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        adapter.insert("gender", 0);
-        spinGender.setAdapter(adapter);
-    }
-    private void setCountriesSpinner(List<String> countyNames) {
-
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, countyNames);
-
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-
-        adapter.insert("Select your country", 0);
-        spinCountries.setAdapter(adapter);
-
-    }
-    private List<String> readCountries() {
-
-        List<String> countryNames = new ArrayList<>();
-        try{
-            InputStream input = getResources().openRawResource(R.raw.countries);
-            byte[] buffer = new byte[input.available()];
-            input.read(buffer);
-            input.close();
-            String json = new String(buffer, "UTF-8");
-            JSONObject jsonObj = new JSONObject(json);
-            JSONArray countriesArray = jsonObj.getJSONArray("countries");
-            for (int i = 0; i < countriesArray.length(); i++) {
-                countryNames.add(countriesArray.getString(i));
-            }
-        }catch(IOException | JSONException e){
-            Log.e("CountryReader", "Error reading country names", e);
-        }
-        return countryNames;
-
-    }
     private void setdays() {
 
         DocumentReference documentReference = db.collection("Users").document(fAuth.getCurrentUser().getUid());
 
-        documentReference.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
-            @Override
-            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
-                if(task.isSuccessful()){
+        documentReference.get().addOnCompleteListener(task -> {
+            if(task.isSuccessful()){
 
-                    DocumentSnapshot doc = task.getResult();
-                    if(doc.contains("days")){
-                        Long days = doc.getLong("days");
-                        tvResults.setText(days.toString());
-                    }else{
-                        tvResults.setText("00");
-                    }
-
+                DocumentSnapshot doc = task.getResult();
+                if(doc.contains("days")){
+                    Long days = doc.getLong("days");
+                    tvResults.setText(days.toString());
+                }else{
+                    tvResults.setText("00");
                 }
+
             }
         });
     }
@@ -305,23 +214,7 @@ public class MainActivity extends AppCompatActivity {
 
         });
     }
-    private void showDatePickerDialog() {
-        final Calendar calander = Calendar.getInstance();
-        int year = calander.get(calander.YEAR);
-        int month = calander.get(calander.MONTH);
-        int day = calander.get(calander.DAY_OF_MONTH);
 
-        DatePickerDialog datePickerDialog = new DatePickerDialog(
-                this,
-                new DatePickerDialog.OnDateSetListener() {
-                    @Override
-                    public void onDateSet(DatePicker datePicker, int y, int m, int d) {
-                        etdDOB.setText(String.format("%02d/%02d/%d",d, m+1, y ));
-                    }
-                },
-                year,month,day);
-        datePickerDialog.show();
-    }
     public void logout(View view) {
         // logout logic
         FirebaseAuth.getInstance().signOut();
