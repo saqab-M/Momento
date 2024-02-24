@@ -21,7 +21,7 @@
             android:name=".authentication.UserInitActivity"
             android:exported="false" />
         <activity
-            android:name=".Demos.NavMainActivity"
+            android:name=".main.NavMainActivity"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>

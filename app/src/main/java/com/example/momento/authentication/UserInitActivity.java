@@ -18,6 +18,7 @@ import android.widget.Spinner;
 
 import com.example.momento.MainActivity;
 import com.example.momento.R;
+import com.example.momento.main.NavMainActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
@@ -140,7 +141,7 @@ public class UserInitActivity extends AppCompatActivity {
                 data.put("init", true);
                 docRef.update(data).addOnCompleteListener(task -> {
                     if (task.isSuccessful()){
-                        startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                        startActivity(new Intent(getApplicationContext(), NavMainActivity.class));
                         finish();
                     }
                 });

@@ -17,6 +17,7 @@ import android.widget.Toast;
 
 import com.example.momento.MainActivity;
 import com.example.momento.R;
+import com.example.momento.main.NavMainActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -44,47 +45,36 @@ public class LoginActivity extends AppCompatActivity {
 
         fAuth = FirebaseAuth.getInstance();
 
-        btnLogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        btnLogin.setOnClickListener(view -> {
 
-                // get text from input fields
-                String email = etEmail.getText().toString().trim();
-                String password = etPassword.getText().toString().trim();
+            // get text from input fields
+            String email = etEmail.getText().toString().trim();
+            String password = etPassword.getText().toString().trim();
 
-                //validate input
-                if(!inputValidation(email,password)){
-                    return;
-                }
-                progressBar.setVisibility(View.VISIBLE);
-
-                fAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-
-                        if (task.isSuccessful()){
-                            startActivity(new Intent(getApplicationContext(), MainActivity.class));
-                            finish();
-                        }else {
-                            Toast.makeText(LoginActivity.this, "error: "+ task.getException().getMessage(), Toast.LENGTH_SHORT).show();
-                            progressBar.setVisibility(View.INVISIBLE);
-                        }
-
-                    }
-                });
-
-
-
+            //validate input
+            if(!inputValidation(email,password)){
+                return;
             }
+            progressBar.setVisibility(View.VISIBLE);
+
+            fAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(task -> {
+
+                if (task.isSuccessful()){
+                    startActivity(new Intent(getApplicationContext(), NavMainActivity.class));
+                    finish();
+                }else {
+                    Toast.makeText(LoginActivity.this, "error: "+ task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                    progressBar.setVisibility(View.INVISIBLE);
+                }
+
+            });
+
         });
 
 
-        tvRegister.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), RegisterActivity.class));
-                finish();
-            }
+        tvRegister.setOnClickListener(view -> {
+            startActivity(new Intent(getApplicationContext(), RegisterActivity.class));
+            finish();
         });
 
     }

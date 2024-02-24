@@ -17,6 +17,7 @@ import android.widget.Toast;
 
 import com.example.momento.MainActivity;
 import com.example.momento.R;
+import com.example.momento.main.NavMainActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -58,7 +59,7 @@ public class RegisterActivity extends AppCompatActivity {
 
         // returning user
         if (fAuth.getCurrentUser()!= null){
-            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+            startActivity(new Intent(getApplicationContext(), NavMainActivity.class));
             finish();
         }
 
@@ -96,7 +97,7 @@ public class RegisterActivity extends AppCompatActivity {
                             documentReference.set(user);
 
                             // start main activity
-                            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                            startActivity(new Intent(getApplicationContext(), NavMainActivity.class));
                             finish();
                         }else{
                             Toast.makeText(RegisterActivity.this, "error: "+ task.getException().getMessage(), Toast.LENGTH_SHORT).show();
