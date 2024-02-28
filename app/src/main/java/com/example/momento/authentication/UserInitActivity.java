@@ -1,6 +1,5 @@
 package com.example.momento.authentication;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.DatePickerDialog;
@@ -16,13 +15,9 @@ import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Spinner;
 
-import com.example.momento.MainActivity;
 import com.example.momento.R;
 import com.example.momento.main.NavMainActivity;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.firestore.DocumentChange;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 
@@ -30,14 +25,22 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
+
+import io.grpc.internal.MessageFramer;
 
 public class UserInitActivity extends AppCompatActivity {
 
@@ -122,10 +125,15 @@ public class UserInitActivity extends AppCompatActivity {
 
         // ### ---------- ###
 
+
+        // ### Upload data to firebase ###
+
         btnNext.setOnClickListener(view -> {
 
             Editable dobEdit = etDOB.getText();
             String dob = dobEdit.toString();
+            double lifeExpectancy = getLifeExpectancy(selectedCountry, selectedGender);
+            String deathDay = getDeathDay(dob, lifeExpectancy);
 
             if(selectedGender.isEmpty() || selectedCountry.isEmpty()) {
                 // also check for empty dob
@@ -138,6 +146,8 @@ public class UserInitActivity extends AppCompatActivity {
                 data.put("gender", selectedGender);
                 data.put("country", selectedCountry);
                 data.put("DOB", dob);
+                data.put("life expectancy", lifeExpectancy);
+                data.put("death day", deathDay);
                 data.put("init", true);
                 docRef.update(data).addOnCompleteListener(task -> {
                     if (task.isSuccessful()){
@@ -150,6 +160,74 @@ public class UserInitActivity extends AppCompatActivity {
 
 
         });
+
+    }
+
+    private String getDeathDay(String dob, double lifeExpectancy) {
+
+        // parse dob
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy", Locale.getDefault());
+        Date DOB;
+        try{
+            DOB = sdf.parse(dob);
+
+            //calculate the target date
+            Calendar calendar = Calendar.getInstance();
+            calendar.setTime(DOB);
+
+            //
+            int fullYears = (int) lifeExpectancy;
+            double fractionalPart = lifeExpectancy - fullYears;
+
+            calendar.add(Calendar.YEAR, fullYears); // get from le
+            calendar.add(Calendar.MONTH, (int)(fractionalPart*12)); //get from le
+
+            return sdf.format(calendar.getTime());
+        }catch (ParseException e){
+            e.printStackTrace();
+        }
+        return null; // TODO check if null
+    }
+
+
+    private double getLifeExpectancy(String selectedCountry, String selectedGender) {
+        try {
+            // Read the JSON file
+            InputStream inputStream = getResources().openRawResource(R.raw.life_expectancy_data_who);
+            InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
+            BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+
+            StringBuilder stringBuilder = new StringBuilder();
+            String line;
+            while ((line = bufferedReader.readLine()) != null) {
+                stringBuilder.append(line);
+            }
+
+            String json = stringBuilder.toString();
+
+            // Parse the JSON data
+            JSONArray dataArray = new JSONArray(json);
+
+            // Iterate through the data array
+            for (int i = 0; i < dataArray.length(); i++) {
+                JSONObject entry = dataArray.getJSONObject(i);
+
+                String country = entry.getString("Country");
+                String gender = entry.getString("Sex");
+
+                if (country.equals(selectedCountry) && gender.equals(selectedGender)) {
+                    // Retrieve life expectancy value
+                    return entry.getDouble("LifeExpectancy");
+                }
+            }
+        } catch (IOException | JSONException e) {
+            e.printStackTrace();
+            Log.d("Test123", "Error reading JSON file or parsing data");
+        }
+
+        Log.d("Test123", "No matching entry found for country: " + selectedCountry + " and gender: " + selectedGender);
+        return 0.0;
+
 
     }
 

@@ -17,6 +17,9 @@ import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.concurrent.ExecutionException;
 
 /**
@@ -60,11 +63,13 @@ public class CountDownWidget extends AppWidgetProvider {
                 if (task.isSuccessful()){
                     DocumentSnapshot docSnap = task.getResult();
 
-                    if (docref != null && docSnap.exists() && docSnap.contains("days")){
-                        long days = docSnap.getLong("days");
+                    if (docref != null && docSnap.exists() && docSnap.contains("DOB") && docSnap.contains("life expectancy")){
+                        double lifeExpectancy = docSnap.getDouble("life expectancy");
+                        String dobUser = docSnap.getString("DOB");
 
+                        String daysLeft = getDaysLeft(lifeExpectancy, dobUser);
                         //update widget
-                        views.setTextViewText(R.id.appwidget_text, String.valueOf(days));
+                        views.setTextViewText(R.id.appwidget_text, daysLeft);
                     }else{
                         views.setTextViewText(R.id.appwidget_text, "Momento");
                     }
@@ -76,6 +81,35 @@ public class CountDownWidget extends AppWidgetProvider {
                 appWidgetManager.updateAppWidget(appWidgetId, views);
             }
         });
+    }
+
+    private static String getDaysLeft(double lifeExpectancy, String dobUser) {
+
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+        try {
+            Date dob = sdf.parse(dobUser);
+
+            Date currentDate = new Date();
+
+            //calculate days
+            Long timeDiff = currentDate.getTime() - dob.getTime();
+            long daysDiff = timeDiff / (24 * 60 * 60 *1000); // //24h 60m 60s 1000ms = ms in a day
+
+
+            int fullYears = (int) lifeExpectancy;
+            double fractionalPart = lifeExpectancy - fullYears;
+            int daysInFullYear = fullYears * 365;
+            int daysInFractionalPart = (int) (fractionalPart * 365);
+            int totalLifeExpectancyInDays = daysInFullYear + daysInFractionalPart;
+
+            return String.valueOf(totalLifeExpectancyInDays - (int)daysDiff);
+
+
+        } catch (ParseException e) {
+            e.printStackTrace();
+            return "00";
+        }
+
     }
 
 
