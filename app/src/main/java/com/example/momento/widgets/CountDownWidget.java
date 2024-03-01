@@ -23,6 +23,8 @@ import java.util.Date;
 import java.util.Objects;
 
 public class CountDownWidget extends AppWidgetProvider {
+    
+    private static final String TAG = "CountDownWidget";
 
     @Override
     public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds) {
@@ -40,7 +42,7 @@ public class CountDownWidget extends AppWidgetProvider {
         AlarmManager alarmManager = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
         Intent intent = new Intent(context, CountDownWidget.class);
         intent.setAction(AppWidgetManager.ACTION_APPWIDGET_UPDATE);
-        PendingIntent pendingIntent = PendingIntent.getBroadcast(context,0,intent,PendingIntent.FLAG_UPDATE_CURRENT);
+        PendingIntent pendingIntent = PendingIntent.getBroadcast(context,0,intent,PendingIntent.FLAG_IMMUTABLE);
 
         // set alarm to Start at midnight
         Calendar calendar = Calendar.getInstance();
@@ -65,7 +67,6 @@ public class CountDownWidget extends AppWidgetProvider {
 
         // get user id
         String uID = Objects.requireNonNull(FirebaseAuth.getInstance().getCurrentUser()).getUid();
-        
         getDaysDataFromFirestore(context, uID, views, appWidgetManager,appWidgetId);
         
     }
@@ -89,7 +90,7 @@ public class CountDownWidget extends AppWidgetProvider {
                     //update widget
                     views.setTextViewText(R.id.appwidget_text, daysLeft);
                 }else{
-                    views.setTextViewText(R.id.appwidget_text, "Momento");
+                    views.setTextViewText(R.id.appwidget_text, "no doc");
                 }
 
             }else{
@@ -124,11 +125,9 @@ public class CountDownWidget extends AppWidgetProvider {
 
 
         } catch (ParseException e) {
-            Log.d("catch", "getDaysLeft: error!");
+            Log.d(TAG, "getDaysLeft: "+e.getMessage());
             return "00";
         }
 
     }
-
-
 }
