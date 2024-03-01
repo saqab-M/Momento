@@ -11,7 +11,6 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Spinner;
 
@@ -39,8 +38,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
+import java.util.Objects;
 
-import io.grpc.internal.MessageFramer;
 
 public class UserInitActivity extends AppCompatActivity {
 
@@ -81,12 +80,7 @@ public class UserInitActivity extends AppCompatActivity {
         setGenderSpinner(genders);
 
         etDOB.setFocusable(false);
-        etDOB.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                showDatePickerDialog();
-            }
-        });
+        etDOB.setOnClickListener(view -> showDatePickerDialog());
 
 
         // ### item selection ###
@@ -141,7 +135,7 @@ public class UserInitActivity extends AppCompatActivity {
                 // []
             }else{
                 // update db
-                DocumentReference docRef = db.collection("Users").document(fAuth.getCurrentUser().getUid());
+                DocumentReference docRef = db.collection("Users").document(Objects.requireNonNull(fAuth.getCurrentUser()).getUid());
                 Map<String,Object> data = new HashMap<>();
                 data.put("gender", selectedGender);
                 data.put("country", selectedCountry);
@@ -173,6 +167,7 @@ public class UserInitActivity extends AppCompatActivity {
 
             //calculate the target date
             Calendar calendar = Calendar.getInstance();
+            assert DOB != null;
             calendar.setTime(DOB);
 
             //
@@ -184,7 +179,7 @@ public class UserInitActivity extends AppCompatActivity {
 
             return sdf.format(calendar.getTime());
         }catch (ParseException e){
-            e.printStackTrace();
+            Log.d("catch", "getDeathDay: "+e.toString());
         }
         return null; // TODO check if null
     }
@@ -285,12 +280,7 @@ public class UserInitActivity extends AppCompatActivity {
 
         DatePickerDialog datePickerDialog = new DatePickerDialog(
                 this,
-                new DatePickerDialog.OnDateSetListener() {
-                    @Override
-                    public void onDateSet(DatePicker datePicker, int y, int m, int d) {
-                        etDOB.setText(String.format("%02d/%02d/%d",d, m+1, y ));
-                    }
-                },
+                (datePicker, y, m, d) -> etDOB.setText(String.format("%02d/%02d/%d",d, m+1, y )),
                 year,month,day);
         datePickerDialog.show();
     }

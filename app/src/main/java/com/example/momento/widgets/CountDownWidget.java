@@ -9,12 +9,8 @@ import android.content.Intent;
 import android.util.Log;
 import android.widget.RemoteViews;
 
-import androidx.annotation.NonNull;
 
 import com.example.momento.R;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.android.gms.tasks.Tasks;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
@@ -24,7 +20,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.concurrent.ExecutionException;
+import java.util.Objects;
 
 public class CountDownWidget extends AppWidgetProvider {
 
@@ -68,7 +64,7 @@ public class CountDownWidget extends AppWidgetProvider {
         RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.count_down_widget);
 
         // get user id
-        String uID = FirebaseAuth.getInstance().getCurrentUser().getUid();
+        String uID = Objects.requireNonNull(FirebaseAuth.getInstance().getCurrentUser()).getUid();
         
         getDaysDataFromFirestore(context, uID, views, appWidgetManager,appWidgetId);
         
@@ -80,30 +76,27 @@ public class CountDownWidget extends AppWidgetProvider {
         //get data from fire store
         DocumentReference docref = FirebaseFirestore.getInstance().collection("Users").document(userID);
 
-        docref.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
-            @Override
-            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+        docref.get().addOnCompleteListener(task -> {
 
-                if (task.isSuccessful()){
-                    DocumentSnapshot docSnap = task.getResult();
+            if (task.isSuccessful()){
+                DocumentSnapshot docSnap = task.getResult();
 
-                    if (docref != null && docSnap.exists() && docSnap.contains("DOB") && docSnap.contains("life expectancy")){
-                        double lifeExpectancy = docSnap.getDouble("life expectancy");
-                        String dobUser = docSnap.getString("DOB");
+                if (docSnap.exists() && docSnap.contains("DOB") && docSnap.contains("life expectancy")){
+                    double lifeExpectancy = docSnap.getDouble("life expectancy");
+                    String dobUser = docSnap.getString("DOB");
 
-                        String daysLeft = getDaysLeft(lifeExpectancy, dobUser);
-                        //update widget
-                        views.setTextViewText(R.id.appwidget_text, daysLeft);
-                    }else{
-                        views.setTextViewText(R.id.appwidget_text, "Momento");
-                    }
-
+                    String daysLeft = getDaysLeft(lifeExpectancy, dobUser);
+                    //update widget
+                    views.setTextViewText(R.id.appwidget_text, daysLeft);
                 }else{
-                    views.setTextViewText(R.id.appwidget_text, "Error!");
+                    views.setTextViewText(R.id.appwidget_text, "Momento");
                 }
 
-                appWidgetManager.updateAppWidget(appWidgetId, views);
+            }else{
+                views.setTextViewText(R.id.appwidget_text, "Error!");
             }
+
+            appWidgetManager.updateAppWidget(appWidgetId, views);
         });
     }
 
@@ -116,7 +109,8 @@ public class CountDownWidget extends AppWidgetProvider {
             Date currentDate = new Date();
 
             //calculate days
-            Long timeDiff = currentDate.getTime() - dob.getTime();
+            assert dob != null;
+            long timeDiff = currentDate.getTime() - dob.getTime();
             long daysDiff = timeDiff / (24 * 60 * 60 *1000); // //24h 60m 60s 1000ms = ms in a day
 
 
@@ -130,7 +124,7 @@ public class CountDownWidget extends AppWidgetProvider {
 
 
         } catch (ParseException e) {
-            e.printStackTrace();
+            Log.d("catch", "getDaysLeft: error!");
             return "00";
         }
 

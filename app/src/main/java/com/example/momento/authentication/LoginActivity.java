@@ -1,6 +1,5 @@
 package com.example.momento.authentication;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
@@ -13,14 +12,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-import android.widget.Toast;
-
-import com.example.momento.MainActivity;
 import com.example.momento.R;
 import com.example.momento.main.NavMainActivity;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class LoginActivity extends AppCompatActivity {
@@ -63,7 +56,6 @@ public class LoginActivity extends AppCompatActivity {
                     startActivity(new Intent(getApplicationContext(), NavMainActivity.class));
                     finish();
                 }else {
-                    Toast.makeText(LoginActivity.this, "error: "+ task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                     progressBar.setVisibility(View.INVISIBLE);
                 }
 
@@ -81,7 +73,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private boolean inputValidation(String email, String password) {
 
-        Boolean inputValid = true;
+        boolean inputValid = true;
         if(TextUtils.isEmpty(email)){
             etEmail.setError("enter your email!");
             inputValid = false;

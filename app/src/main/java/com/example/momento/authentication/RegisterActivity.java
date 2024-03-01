@@ -1,6 +1,5 @@
 package com.example.momento.authentication;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
@@ -15,12 +14,8 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.momento.MainActivity;
 import com.example.momento.R;
 import com.example.momento.main.NavMainActivity;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -63,60 +58,51 @@ public class RegisterActivity extends AppCompatActivity {
             finish();
         }
 
-        btnSignUp.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        btnSignUp.setOnClickListener(view -> {
 
-                // get user input
-                String name = etName.getText().toString().trim();
-                String email = etEmail.getText().toString().trim();
-                String password = etPass.getText().toString().trim();
-                String password2 = etPass2.getText().toString().trim();
+            // get user input
+            String name = etName.getText().toString().trim();
+            String email = etEmail.getText().toString().trim();
+            String password = etPass.getText().toString().trim();
+            String password2 = etPass2.getText().toString().trim();
 
-                if(!inputValidatin(name,email,password,password2)){
-                    return;
-                }
-                progressBar.setVisibility(View.VISIBLE);
-
-                //Register the user
-                fAuth.createUserWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        if(task.isSuccessful()){
-                            //get user id
-                            userID = fAuth.getCurrentUser().getUid();
-                            //add user data to firestore
-                            DocumentReference documentReference = db.collection("Users").document(userID);
-                            //save user data as hash map
-                            Map<String,Object> user = new HashMap<>();
-                            user.put("name" , name);
-                            user.put("email", email);
-                            user.put("init", false);
-
-                            //push to cloud
-                            documentReference.set(user);
-
-                            // start main activity
-                            startActivity(new Intent(getApplicationContext(), NavMainActivity.class));
-                            finish();
-                        }else{
-                            Toast.makeText(RegisterActivity.this, "error: "+ task.getException().getMessage(), Toast.LENGTH_SHORT).show();
-                            progressBar.setVisibility(View.INVISIBLE);
-                        }
-                    }
-                });
-
-
-
+            if(!inputValidatin(name,email,password,password2)){
+                return;
             }
+            progressBar.setVisibility(View.VISIBLE);
+
+            //Register the user
+            fAuth.createUserWithEmailAndPassword(email,password).addOnCompleteListener(task -> {
+                if(task.isSuccessful()){
+                    //get user id
+                    userID = fAuth.getCurrentUser().getUid();
+                    //add user data to firestore
+                    DocumentReference documentReference = db.collection("Users").document(userID);
+                    //save user data as hash map
+                    Map<String,Object> user = new HashMap<>();
+                    user.put("name" , name);
+                    user.put("email", email);
+                    user.put("init", false);
+
+                    //push to cloud
+                    documentReference.set(user);
+
+                    // start main activity
+                    startActivity(new Intent(getApplicationContext(), NavMainActivity.class));
+                    finish();
+                }else{
+                    Toast.makeText(RegisterActivity.this, "error: "+ task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                    progressBar.setVisibility(View.INVISIBLE);
+                }
+            });
+
+
+
         });
 
-        tvSignin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), LoginActivity.class));
-                finish();
-            }
+        tvSignin.setOnClickListener(view -> {
+            startActivity(new Intent(getApplicationContext(), LoginActivity.class));
+            finish();
         });
 
 
@@ -124,7 +110,7 @@ public class RegisterActivity extends AppCompatActivity {
 
     private boolean inputValidatin(String name, String email, String password, String password2) {
 
-        Boolean inputValid = true;
+        boolean inputValid = true;
         if (TextUtils.isEmpty(name)){
             etName.setError("enter your name!");
             inputValid = false;

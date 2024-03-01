@@ -27,4 +27,25 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="log_out">log out</string>
+    <string name="app_icon">app icon</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="not_registered_sign_up">Not registered? Sign up</string>
+    <string name="name">Name</string>
+    <string name="register">Register</string>
+    <string name="already_registered_sign_in">Already registered? Sign in</string>
+    <string name="upload_an_image">upload an image</string>
+    <string name="dd_mm_yyyy">dd/mm/yyyy</string>
+    <string name="next">Next</string>
+    <string name="app_title_description">App Title</string>
+    <string name="life_expectancy">Life expectancy</string>
+    <string name="null_value">...</string>
+    <string name="days_left">Days left</string>
+    <string name="percentage">%</string>
+    <string name="death_day">Death Day</string>
+    <string name="profile_picture">profile picture</string>
+    <string name="user_name">user name</string>
+    <string name="email_placeholder">user@email.com</string>
 </resources>

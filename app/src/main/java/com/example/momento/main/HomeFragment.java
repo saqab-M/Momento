@@ -2,29 +2,27 @@ package com.example.momento.main;
 
 import android.os.Bundle;
 
-import androidx.annotation.NonNull;
+
 import androidx.fragment.app.Fragment;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.example.momento.R;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
-
-import org.w3c.dom.Text;
 
 import java.text.DecimalFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
+import java.util.Objects;
 
 
 public class HomeFragment extends Fragment {
@@ -66,7 +64,7 @@ public class HomeFragment extends Fragment {
 
     private void setUserData() {
 
-        DocumentReference docRef= db.collection("Users").document(fAuth.getCurrentUser().getUid());
+        DocumentReference docRef= db.collection("Users").document(Objects.requireNonNull(fAuth.getCurrentUser()).getUid());
 
         docRef.get().addOnCompleteListener(task -> {
 
@@ -112,7 +110,8 @@ public class HomeFragment extends Fragment {
             Date currentDate = new Date();
 
             //calculate days
-            Long timeDiff = currentDate.getTime() - dob.getTime();
+            assert dob != null;
+            long timeDiff = currentDate.getTime() - dob.getTime();
             long daysDiff = timeDiff / (24 * 60 * 60 *1000); // //24h 60m 60s 1000ms = ms in a day
 
 
@@ -126,7 +125,7 @@ public class HomeFragment extends Fragment {
 
 
         } catch (ParseException e) {
-            e.printStackTrace();
+            Log.d("catch", "getDaysLeft: error!");
             return "00";
         }
 
@@ -143,6 +142,7 @@ public class HomeFragment extends Fragment {
 
             //calculate the number of days lived
             Date currentDate = new Date();
+            assert dob != null;
             long diffInMillies = Math.abs(currentDate.getTime() - dob.getTime());
             long daysLived = diffInMillies / (1000 * 60 * 60 * 24); // convert millisec to days
 
@@ -153,7 +153,7 @@ public class HomeFragment extends Fragment {
             return df.format(percentageLived);
 
         } catch (ParseException e) {
-            e.printStackTrace();
+            Log.d("catch", "getPercentage: error!");
             return "0.00";
         }
     }

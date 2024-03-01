@@ -13,12 +13,12 @@
         />
     <item
         android:title="Settings"
-        android:icon="@drawable/settings_icon"
+        android:icon="@drawable/settings"
         android:id="@+id/settings_item"
         />
     <item
         android:title="Log Out"
-        android:icon="@drawable/delete"
+        android:icon="@drawable/logout"
         android:id="@+id/logout_item"
         />
 </menu>
